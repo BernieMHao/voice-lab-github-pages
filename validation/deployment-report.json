@@ -1,0 +1,20 @@
+{
+  "id": 40504563209,
+  "head_sha": "f0c52178dfddf59c9df79b0479d49955ec6283be",
+  "status": "completed",
+  "conclusion": "success",
+  "html_url": "https://github.com/BernieMHao/voice-lab-github-pages/actions/runs/40504563209",
+  "updated_at": "2026-10-27T12:33:37Z",
+  "site": "https://berniemhao.github.io/voice-lab-github-pages/",
+  "repository": "https://github.com/BernieMHao/voice-lab-github-pages",
+  "liveBrowserVerification": {
+    "browser": "Brave",
+    "defaultModel": "2m",
+    "automaticDownloadComplete": true,
+    "inferenceDevice": "WASM CPU",
+    "inferenceThreads": 2,
+    "generationSeconds": 0.5,
+    "audioDurationSeconds": 2.4,
+    "wavDownloadLink": true
+  }
+}

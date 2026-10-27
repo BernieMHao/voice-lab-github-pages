@@ -1,6 +1,6 @@
 # 驗證紀錄（2026-10-27）
 
-本機 Chromium 停用 GPU / WebGPU，以無 COOP / COEP 標頭的靜態 HTTP server 模擬 GitHub Pages 的 `/voice-lab/` 子路徑。這是本機預覽測試；尚未部署到實際 GitHub repository。
+本機 Chromium 停用 GPU / WebGPU，以無 COOP / COEP 標頭的靜態 HTTP server 模擬 GitHub Pages 的 `/voice-lab/` 子路徑。此部分為部署前的本機預覽測試；正式部署紀錄如下。
 
 - 15 個模型皆在瀏覽器 WebAssembly CPU 完成推論，輸出正確取樣率的非靜音 PCM16 WAV。
 - Pocket 2M 實際從固定 revision 的公開 Hugging Face 來源下載；驗證首次預設下載、SHA-256、僅下載選定模型、兩推論執行緒、斷網重新整理及生成、刪除再下載。
@@ -29,3 +29,9 @@
 | zipvoice | 24000 | 0.1679 | 通過 |
 | qwen | 24000 | 0.1015 | 通過 |
 | omnivoice | 24000 | 0.1543 | 通過 |
+
+## GitHub Pages 正式部署
+
+2026-10-27 已部署至 [https://berniemhao.github.io/voice-lab-github-pages/](https://berniemhao.github.io/voice-lab-github-pages/)。公開 repository 為 [BernieMHao/voice-lab-github-pages](https://github.com/BernieMHao/voice-lab-github-pages)。[GitHub Actions build / deploy 均成功](https://github.com/BernieMHao/voice-lab-github-pages/actions/runs/40504563209)，發布 commit 為 `f0c52178dfddf59c9df79b0479d49955ec6283be`。
+
+正式網址已以 Brave 首次開啟驗證：自動下載 PocketTTS-2M 完成，以 CPU / 2 threads 生成 `Hello! Welcome to Voice Lab.`，畫面顯示生成時間 0.50 秒、音訊長度 2.40 秒，並提供音訊播放器與 WAV 下載連結。

@@ -1,5 +1,7 @@
 # Voice Lab — 免費 GitHub Pages 瀏覽器版
 
+正式網站：[開啟 Voice Lab](https://berniemhao.github.io/voice-lab-github-pages/) · [原始碼](https://github.com/BernieMHao/voice-lab-github-pages)
+
 這是獨立版本，不需啟動原專案的 Python / Mac 服務。網站只提供靜態檔案；**每位訪客使用自己的 CPU、RAM 與瀏覽器儲存空間**下載及執行模型，產生的 WAV 可直接下載。沒有推論 API、GPU / WebGPU / Metal 或付費雲端服務。
 
 第一次開啟會自動下載 **Pocket TTS 2M，約 48.9 MiB**，另需下載約十多 MiB 的 CPU 執行程式。其他模型由使用者選擇後下載；模型參數量不是實際下載大小。首頁的「查看全部 15 個模型」會顯示每個模型的精確下載大小及保存狀態。
