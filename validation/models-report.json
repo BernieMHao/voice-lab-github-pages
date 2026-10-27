@@ -1,0 +1,164 @@
+{
+  "reports": [
+    {
+      "id": "100m",
+      "wallMs": 5922,
+      "rms": 0.11663163076271006,
+      "wavBytes": 107564,
+      "sampleRate": 24000,
+      "metrics": [
+        "0.66 s",
+        "2.24 s",
+        "0.30",
+        "0.11 s"
+      ]
+    },
+    {
+      "id": "18m",
+      "wallMs": 2862,
+      "rms": 0.12338610852676617,
+      "wavBytes": 92204,
+      "sampleRate": 24000,
+      "metrics": [
+        "0.20 s",
+        "1.92 s",
+        "0.11",
+        "0.04 s"
+      ]
+    },
+    {
+      "id": "7m",
+      "wallMs": 1731,
+      "rms": 0.11707381080813647,
+      "wavBytes": 88364,
+      "sampleRate": 24000,
+      "metrics": [
+        "0.13 s",
+        "1.84 s",
+        "0.07",
+        "0.01 s"
+      ]
+    },
+    {
+      "id": "2m",
+      "wallMs": 558,
+      "rms": 0.11263203823712949,
+      "wavBytes": 103724,
+      "sampleRate": 24000,
+      "metrics": [
+        "0.07 s",
+        "2.16 s",
+        "0.03",
+        "0.00 s"
+      ]
+    },
+    {
+      "id": "kokoro",
+      "wallMs": 6225,
+      "rms": 0.06627564969998484,
+      "wavBytes": 117644,
+      "sampleRate": 24000,
+      "metrics": [
+        "3.42 s",
+        "2.45 s",
+        "1.40",
+        "3.42 s"
+      ]
+    },
+    {
+      "id": "kitten-nano",
+      "wallMs": 3174,
+      "rms": 0.10915100800650272,
+      "wavBytes": 204844,
+      "sampleRate": 24000,
+      "metrics": [
+        "1.54 s",
+        "4.27 s",
+        "0.36",
+        "1.54 s"
+      ]
+    },
+    {
+      "id": "kitten-micro",
+      "wallMs": 3280,
+      "rms": 0.12138869873777937,
+      "wavBytes": 180844,
+      "sampleRate": 24000,
+      "metrics": [
+        "1.44 s",
+        "3.77 s",
+        "0.38",
+        "1.44 s"
+      ]
+    },
+    {
+      "id": "kitten-mini",
+      "wallMs": 5590,
+      "rms": 0.10076250939059006,
+      "wavBytes": 167644,
+      "sampleRate": 24000,
+      "metrics": [
+        "3.13 s",
+        "3.49 s",
+        "0.90",
+        "3.13 s"
+      ]
+    },
+    {
+      "id": "piper",
+      "wallMs": 2622,
+      "rms": 0.10329128383064853,
+      "wavBytes": 91180,
+      "sampleRate": 22050,
+      "metrics": [
+        "0.30 s",
+        "2.07 s",
+        "0.14",
+        "0.29 s"
+      ]
+    },
+    {
+      "id": "supertonic",
+      "wallMs": 8428,
+      "rms": 0.04684912525889355,
+      "wavBytes": 202796,
+      "sampleRate": 44100,
+      "metrics": [
+        "1.05 s",
+        "2.30 s",
+        "0.46",
+        "整段輸出"
+      ]
+    },
+    {
+      "id": "phonon",
+      "wallMs": 2164,
+      "rms": 0.08510548268254908,
+      "wavBytes": 115244,
+      "sampleRate": 24000,
+      "metrics": [
+        "0.38 s",
+        "2.40 s",
+        "0.16",
+        "0.04 s"
+      ]
+    },
+    {
+      "id": "matcha",
+      "wallMs": 4685,
+      "rms": 0.09365555075141682,
+      "wavBytes": 115934,
+      "sampleRate": 22050,
+      "metrics": [
+        "0.65 s",
+        "2.63 s",
+        "0.25",
+        "整段輸出"
+      ]
+    }
+  ],
+  "postRequests": [],
+  "transport": "sha256-verified-local-static-mirror",
+  "gpuDisabled": true,
+  "scope": "/voice-lab/"
+}

@@ -1,0 +1,3193 @@
+{
+  "format": 1,
+  "defaultModel": "2m",
+  "models": {
+    "100m": {
+      "files": [
+        {
+          "path": "models/pocket/100m/model.safetensors",
+          "bytes": 235738732,
+          "sha256": "58aa704a88faad35f22c34ea1cb55c4c5629de8b8e035c6e4936e2673dc07617",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2026-01/model.safetensors"
+        },
+        {
+          "path": "models/pocket/100m/tokenizer.json",
+          "bytes": 245020,
+          "sha256": "f498428e1eafee50492f7be13dc9bfafcfc12e508cd0eb1b01c92ecd5d8c6687",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2026-01/tokenizer.json"
+        },
+        {
+          "path": "models/pocket/100m/embeddings/alba.safetensors",
+          "bytes": 6195000,
+          "sha256": "95434ecb2f4bb409b21e198992f79f13453ba894f1b515ef27bb841b52c702c0",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2026-01/embeddings/alba.safetensors"
+        },
+        {
+          "path": "models/pocket/100m/embeddings/marius.safetensors",
+          "bytes": 6195000,
+          "sha256": "80ab1d51a809798ec0498ba38af09254421b32c5f26a9f58d7bb49b0f885ad5d",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2026-01/embeddings/marius.safetensors"
+        },
+        {
+          "path": "models/pocket/100m/embeddings/jean.safetensors",
+          "bytes": 6047544,
+          "sha256": "56a52968328c154a074356c40553719c7fcc68d23aaad168ea1b942093a359d2",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2026-01/embeddings/jean.safetensors"
+        },
+        {
+          "path": "models/pocket/100m/embeddings/anna.safetensors",
+          "bytes": 7571256,
+          "sha256": "9361a29109536c9b8967550516578c165c42057e0a0156e6e8103ee4b63bf236",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2026-01/embeddings/anna.safetensors"
+        },
+        {
+          "path": "models/pocket/100m/embeddings/cosette.safetensors",
+          "bytes": 6195000,
+          "sha256": "0380fc886e474ff48847b5ca0f4e2bc802a5ea2bd2bb7f2299801b68e8e1a855",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2026-01/embeddings/cosette.safetensors"
+        },
+        {
+          "path": "models/pocket/100m/embeddings/fantine.safetensors",
+          "bytes": 6391608,
+          "sha256": "68eba9ff037e30569147bee349bed91e97966091b5c43bfbb7cb3932a5d7cd40",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2026-01/embeddings/fantine.safetensors"
+        },
+        {
+          "path": "models/pocket/100m/embeddings/vera.safetensors",
+          "bytes": 6637368,
+          "sha256": "0b0cfe44eeefe4db333cd6df025891b9bfd328dc210e01fa46bea14194964ddb",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2026-01/embeddings/vera.safetensors"
+        },
+        {
+          "path": "models/pocket/100m/embeddings/javert.safetensors",
+          "bytes": 6096696,
+          "sha256": "dfb109d7523cfe3aa256c00ad74795565f7c32dc40859544fb1356d6347dc1ce",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2026-01/embeddings/javert.safetensors"
+        }
+      ],
+      "bytes": 287313224
+    },
+    "18m": {
+      "files": [
+        {
+          "path": "models/pocket/18m/model.safetensors",
+          "bytes": 111728528,
+          "sha256": "599329dcea2f2a8d17b575e1c6e11b78822453c9073040d55c26faadf4883188",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_18m_2026-10/model.safetensors"
+        },
+        {
+          "path": "models/pocket/18m/tokenizer.json",
+          "bytes": 245020,
+          "sha256": "f498428e1eafee50492f7be13dc9bfafcfc12e508cd0eb1b01c92ecd5d8c6687",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_18m_2026-10/tokenizer.json"
+        },
+        {
+          "path": "models/pocket/18m/embeddings/alba.safetensors",
+          "bytes": 4163992,
+          "sha256": "11554cbe9f3d3a3e10722932df9952bb44928e534f7af3200524659166b5627a",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_18m_2026-10/embeddings/alba.safetensors"
+        },
+        {
+          "path": "models/pocket/18m/embeddings/marius.safetensors",
+          "bytes": 4163992,
+          "sha256": "1af5d5c612ba4229871c3132eabc91566d0aad618b202059abc734cdbc124cd7",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_18m_2026-10/embeddings/marius.safetensors"
+        },
+        {
+          "path": "models/pocket/18m/embeddings/jean.safetensors",
+          "bytes": 4065688,
+          "sha256": "c66eec40caef9cccb1c9665fc9475af1137cf35bbd4d7be487ace2141dd8c3f8",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_18m_2026-10/embeddings/jean.safetensors"
+        },
+        {
+          "path": "models/pocket/18m/embeddings/anna.safetensors",
+          "bytes": 5081496,
+          "sha256": "d4c2f3660183b58d6fedd428ad59ba07ff4ea9f26a16295aba127e281c746450",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_18m_2026-10/embeddings/anna.safetensors"
+        },
+        {
+          "path": "models/pocket/18m/embeddings/cosette.safetensors",
+          "bytes": 4163992,
+          "sha256": "55ee4a23179f2efde2c4364487597050769b778363fd9dce107772371ed4fc72",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_18m_2026-10/embeddings/cosette.safetensors"
+        },
+        {
+          "path": "models/pocket/18m/embeddings/fantine.safetensors",
+          "bytes": 4295064,
+          "sha256": "8d696e34736e9405659307543f510433a82482bfe81cca11a4f55b4f2427b791",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_18m_2026-10/embeddings/fantine.safetensors"
+        },
+        {
+          "path": "models/pocket/18m/embeddings/vera.safetensors",
+          "bytes": 4458904,
+          "sha256": "ff3de83fed9e40fa04f16ecf4b49fa0e535edf7ff4bcb9a4143c4006790af53c",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_18m_2026-10/embeddings/vera.safetensors"
+        },
+        {
+          "path": "models/pocket/18m/embeddings/javert.safetensors",
+          "bytes": 4098456,
+          "sha256": "f93fa41fccc890a84ea6a2222cdaed5ce7cb6fea75dec1298cf12a65810479b0",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_18m_2026-10/embeddings/javert.safetensors"
+        }
+      ],
+      "bytes": 146465132
+    },
+    "7m": {
+      "files": [
+        {
+          "path": "models/pocket/7m/model.safetensors",
+          "bytes": 66482920,
+          "sha256": "aea704a2989277c1a700abc16fb1442cb6baa2fa9ad32251ef7a5f91e4eb7d58",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_7m_2026-10/model.safetensors"
+        },
+        {
+          "path": "models/pocket/7m/tokenizer.json",
+          "bytes": 245020,
+          "sha256": "f498428e1eafee50492f7be13dc9bfafcfc12e508cd0eb1b01c92ecd5d8c6687",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_7m_2026-10/tokenizer.json"
+        },
+        {
+          "path": "models/pocket/7m/embeddings/alba.safetensors",
+          "bytes": 1042832,
+          "sha256": "fef27ae7a34132e88c81090316145671362da386ab4e5c6b048e5d16800d746b",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_7m_2026-10/embeddings/alba.safetensors"
+        },
+        {
+          "path": "models/pocket/7m/embeddings/marius.safetensors",
+          "bytes": 1042832,
+          "sha256": "659cacbfcd15cb49a3ccdb0d32b5f9507e370671ff95f3c172e255906cd8af88",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_7m_2026-10/embeddings/marius.safetensors"
+        },
+        {
+          "path": "models/pocket/7m/embeddings/jean.safetensors",
+          "bytes": 1018256,
+          "sha256": "2e74ce1d293135343e246897028113d4d923dbe4a993c499f257acb04cb13966",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_7m_2026-10/embeddings/jean.safetensors"
+        },
+        {
+          "path": "models/pocket/7m/embeddings/anna.safetensors",
+          "bytes": 1272208,
+          "sha256": "7d76ede64b5a1bd0f72523f1c621e86019bb43fa92101a076ed90d6aa1a980ba",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_7m_2026-10/embeddings/anna.safetensors"
+        },
+        {
+          "path": "models/pocket/7m/embeddings/cosette.safetensors",
+          "bytes": 1042832,
+          "sha256": "5be9abe4b24cf8ca503b8488b53b5cf0c43e1ca4f8ceba3bcd228cebc7fe9eaf",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_7m_2026-10/embeddings/cosette.safetensors"
+        },
+        {
+          "path": "models/pocket/7m/embeddings/fantine.safetensors",
+          "bytes": 1075600,
+          "sha256": "37c249b74090687fb7285a8290f292b62efdb56838b7751351442894f68f6315",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_7m_2026-10/embeddings/fantine.safetensors"
+        },
+        {
+          "path": "models/pocket/7m/embeddings/vera.safetensors",
+          "bytes": 1116560,
+          "sha256": "e5aac6680ba78e8390ebc7863342591c83c022fec3d6a173268d4c575d68193f",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_7m_2026-10/embeddings/vera.safetensors"
+        },
+        {
+          "path": "models/pocket/7m/embeddings/javert.safetensors",
+          "bytes": 1026448,
+          "sha256": "754595549bddb746c2156ce3ff769948233b80f0f484846c1a59bee399245193",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_7m_2026-10/embeddings/javert.safetensors"
+        }
+      ],
+      "bytes": 75365508
+    },
+    "2m": {
+      "files": [
+        {
+          "path": "models/pocket/2m/model.safetensors",
+          "bytes": 46713080,
+          "sha256": "74b5fcec78f552580d54010029275beff2e2767596b780dcd3bc022beacfcc8c",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/model.safetensors"
+        },
+        {
+          "path": "models/pocket/2m/tokenizer.json",
+          "bytes": 245020,
+          "sha256": "f498428e1eafee50492f7be13dc9bfafcfc12e508cd0eb1b01c92ecd5d8c6687",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/tokenizer.json"
+        },
+        {
+          "path": "models/pocket/2m/embeddings/alba.safetensors",
+          "bytes": 522632,
+          "sha256": "3f561ebfdb6670e89b441bcdf35b3e86e25a620dfaa4eaf5637a63833d367b7c",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/alba.safetensors"
+        },
+        {
+          "path": "models/pocket/2m/embeddings/marius.safetensors",
+          "bytes": 522632,
+          "sha256": "12953c57b394597c027daf792bcb2c04ca1e6f35675f3920da8b8878ea089b57",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/marius.safetensors"
+        },
+        {
+          "path": "models/pocket/2m/embeddings/jean.safetensors",
+          "bytes": 510344,
+          "sha256": "6c3920f57656862c61cc25ea38413be51fdb58e62e67579fbb87df499da7772b",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/jean.safetensors"
+        },
+        {
+          "path": "models/pocket/2m/embeddings/anna.safetensors",
+          "bytes": 637320,
+          "sha256": "577dbc7a2fee7f62d776476505525bb50ad2f26c8f9dde98bcaaa92a1e33c540",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/anna.safetensors"
+        },
+        {
+          "path": "models/pocket/2m/embeddings/cosette.safetensors",
+          "bytes": 522632,
+          "sha256": "ce2ade8ba4923e6d4f3ffb532e391eb6ab44a4d3ae5caaa88fcef19c075fb285",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/cosette.safetensors"
+        },
+        {
+          "path": "models/pocket/2m/embeddings/fantine.safetensors",
+          "bytes": 539016,
+          "sha256": "56436f3f12dd63054d94b3cbf4eebcca828c56467e1354d570551f67d9f8b1d4",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/fantine.safetensors"
+        },
+        {
+          "path": "models/pocket/2m/embeddings/vera.safetensors",
+          "bytes": 559496,
+          "sha256": "f6c8448d5816c700f5a78e2d094b44c573fb1b0f8ea98509972fbb8511d45414",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/vera.safetensors"
+        },
+        {
+          "path": "models/pocket/2m/embeddings/javert.safetensors",
+          "bytes": 514440,
+          "sha256": "966dade62e74509db5a13f50cc9c64025ea5c2b412bbd1a75db9c760346d5212",
+          "url": "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/javert.safetensors"
+        }
+      ],
+      "bytes": 51286612
+    },
+    "kokoro": {
+      "files": [
+        {
+          "path": "models/kokoro/config.json",
+          "bytes": 44,
+          "sha256": "df34b4f930b23447cd4dc410fabfb42eb3f24e803e6c3f97d618fb359380a36f",
+          "url": "support/models/kokoro/config.json"
+        },
+        {
+          "path": "models/kokoro/onnx/model_quantized.onnx",
+          "bytes": 92361116,
+          "sha256": "fbae9257e1e05ffc727e951ef9b9c98418e6d79f1c9b6b13bd59f5c9028a1478",
+          "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/onnx/model_quantized.onnx"
+        },
+        {
+          "path": "models/kokoro/tokenizer.json",
+          "bytes": 3497,
+          "sha256": "77a02c8e164413299b4b4c403b14f8e0e1c1b727db4d46a09d6327b861060a34",
+          "url": "support/models/kokoro/tokenizer.json"
+        },
+        {
+          "path": "models/kokoro/voices/af_bella.bin",
+          "bytes": 522240,
+          "sha256": "f69d836209b78eb8c66e75e3cda491e26ea838a3674257e9d4e5703cbaf55c8b",
+          "url": "support/models/kokoro/voices/af_bella.bin"
+        },
+        {
+          "path": "models/kokoro/voices/af_heart.bin",
+          "bytes": 522240,
+          "sha256": "d583ccff3cdca2f7fae535cb998ac07e9fcb90f09737b9a41fa2734ec44a8f0b",
+          "url": "support/models/kokoro/voices/af_heart.bin"
+        },
+        {
+          "path": "models/kokoro/voices/af_sarah.bin",
+          "bytes": 522240,
+          "sha256": "4409fbc125afabacc615d94db5398d847006a737b0247d6892b7a9a0007a2f0a",
+          "url": "support/models/kokoro/voices/af_sarah.bin"
+        },
+        {
+          "path": "models/kokoro/voices/am_adam.bin",
+          "bytes": 522240,
+          "sha256": "162b035ed91cfc48b6046982184c645f72edcdd1b82843347f605d7bf7b15716",
+          "url": "support/models/kokoro/voices/am_adam.bin"
+        },
+        {
+          "path": "models/kokoro/voices/am_michael.bin",
+          "bytes": 522240,
+          "sha256": "1d1f21dd8da39c30705cd4c75d039d265e9bc4a2a93ed09bc9e1b1225eb95ba1",
+          "url": "support/models/kokoro/voices/am_michael.bin"
+        },
+        {
+          "path": "models/kokoro/voices/bf_emma.bin",
+          "bytes": 522240,
+          "sha256": "669fe0647f9dd04fcab92f1439a40eeb4c8b4ab1f82e4996fe3d918ce4a63b73",
+          "url": "support/models/kokoro/voices/bf_emma.bin"
+        },
+        {
+          "path": "models/kokoro/voices/bm_george.bin",
+          "bytes": 522240,
+          "sha256": "c4b235a4c1f2cd3b939fed08b899ce9385638b763f7b73a59616c4fc9bd6c9bc",
+          "url": "support/models/kokoro/voices/bm_george.bin"
+        }
+      ],
+      "bytes": 96020337
+    },
+    "kitten-nano": {
+      "files": [
+        {
+          "path": "models/kitten-nano/config.json",
+          "bytes": 688,
+          "sha256": "b66006ccbeccd4de5fc3c9272059c47f5725df7215fd889785c03602652fab64",
+          "url": "support/models/kitten-nano/config.json"
+        },
+        {
+          "path": "models/kitten-nano/expr-voice-2-f.bin",
+          "bytes": 409600,
+          "sha256": "0f56274d033abbb4103140ff346e4f343c31dd0d2d3a45269a0988245291330e",
+          "url": "support/models/kitten-nano/expr-voice-2-f.bin"
+        },
+        {
+          "path": "models/kitten-nano/expr-voice-2-m.bin",
+          "bytes": 409600,
+          "sha256": "5e0b649453ac74ca91dfc6730fb318567fc34a24bca9e910cdb39f07e611a83f",
+          "url": "support/models/kitten-nano/expr-voice-2-m.bin"
+        },
+        {
+          "path": "models/kitten-nano/expr-voice-3-f.bin",
+          "bytes": 409600,
+          "sha256": "33c236c8ae79ba95c257c7b47196f22ec9d81a392e96aa0fb3a6397ac4294f29",
+          "url": "support/models/kitten-nano/expr-voice-3-f.bin"
+        },
+        {
+          "path": "models/kitten-nano/expr-voice-3-m.bin",
+          "bytes": 409600,
+          "sha256": "388af21b8452d723738e1cc625838182cd306e36cbffc3ab2e9f310644783a18",
+          "url": "support/models/kitten-nano/expr-voice-3-m.bin"
+        },
+        {
+          "path": "models/kitten-nano/expr-voice-4-f.bin",
+          "bytes": 409600,
+          "sha256": "ae9a2bc901bfd2ca906e3be4996cbb5618b5a3724bef574f828cb1c1d94f7da9",
+          "url": "support/models/kitten-nano/expr-voice-4-f.bin"
+        },
+        {
+          "path": "models/kitten-nano/expr-voice-4-m.bin",
+          "bytes": 409600,
+          "sha256": "1e036f1166acf869ba42d20a6f77ee13433f3959b44600af210e67b332cb53ca",
+          "url": "support/models/kitten-nano/expr-voice-4-m.bin"
+        },
+        {
+          "path": "models/kitten-nano/expr-voice-5-f.bin",
+          "bytes": 409600,
+          "sha256": "4038768964607180b8e11e510056b9922b30b765a0f151517047143c56ff700b",
+          "url": "support/models/kitten-nano/expr-voice-5-f.bin"
+        },
+        {
+          "path": "models/kitten-nano/expr-voice-5-m.bin",
+          "bytes": 409600,
+          "sha256": "106a8a5a8a02b82220cca9f467d638c8558e6e3d8f54b59ea54b326cbc91502d",
+          "url": "support/models/kitten-nano/expr-voice-5-m.bin"
+        },
+        {
+          "path": "models/kitten-nano/kitten_tts_nano_v0_8.onnx",
+          "bytes": 24369971,
+          "sha256": "f7b0afcbee92870b32b8e0276d855b954dc25470c9f051b376ac7eee537c76fc",
+          "url": "https://huggingface.co/KittenML/kitten-tts-nano-0.8-int8/resolve/84781d74e29ee25217551556398b42f80593a813/kitten_tts_nano_v0_8.onnx"
+        },
+        {
+          "path": "models/kitten-nano/tokens.json",
+          "bytes": 1765,
+          "sha256": "c31f54084e4c7d95944fb33383bd65b0af7d84969ccc6ed6c1472fbbcb60b2ae",
+          "url": "support/models/kitten-nano/tokens.json"
+        },
+        {
+          "path": "models/kitten-nano/voices.json",
+          "bytes": 240,
+          "sha256": "e4f19618bba31bc5e2a8928640611b29183d0236f7e767a41c0914869be2f2d1",
+          "url": "support/models/kitten-nano/voices.json"
+        }
+      ],
+      "bytes": 27649464
+    },
+    "kitten-micro": {
+      "files": [
+        {
+          "path": "models/kitten-micro/config.json",
+          "bytes": 473,
+          "sha256": "1f0bd2208348f9211cb0da64fcd1536eb28228571cc6b09e767eb6e203a0a532",
+          "url": "support/models/kitten-micro/config.json"
+        },
+        {
+          "path": "models/kitten-micro/expr-voice-2-f.bin",
+          "bytes": 409600,
+          "sha256": "390b2ff5171712499f80423e10c625acbd7f112c349501ab03ab15718b89b80f",
+          "url": "support/models/kitten-micro/expr-voice-2-f.bin"
+        },
+        {
+          "path": "models/kitten-micro/expr-voice-2-m.bin",
+          "bytes": 409600,
+          "sha256": "36f085b4a70855602749524990dd9793c6b69598f53284990bc7aa51289de12b",
+          "url": "support/models/kitten-micro/expr-voice-2-m.bin"
+        },
+        {
+          "path": "models/kitten-micro/expr-voice-3-f.bin",
+          "bytes": 409600,
+          "sha256": "4d7402465c6a4280559a862ee618ee122f33d102dec8e1f80d68b01179f7a98a",
+          "url": "support/models/kitten-micro/expr-voice-3-f.bin"
+        },
+        {
+          "path": "models/kitten-micro/expr-voice-3-m.bin",
+          "bytes": 409600,
+          "sha256": "ae1e1a1e5d7e7cdaef70d510cb1847343d245b3b5822753eb0514b7ebd4abeef",
+          "url": "support/models/kitten-micro/expr-voice-3-m.bin"
+        },
+        {
+          "path": "models/kitten-micro/expr-voice-4-f.bin",
+          "bytes": 409600,
+          "sha256": "8fad989b33bac33d42993fd86edb6c3f5c65025664580b0fa64b47cccee63e85",
+          "url": "support/models/kitten-micro/expr-voice-4-f.bin"
+        },
+        {
+          "path": "models/kitten-micro/expr-voice-4-m.bin",
+          "bytes": 409600,
+          "sha256": "c1f5ed7dcd05cc884835d30acf34edbbbf8dd6d241c926ccfbcca18270aa6d67",
+          "url": "support/models/kitten-micro/expr-voice-4-m.bin"
+        },
+        {
+          "path": "models/kitten-micro/expr-voice-5-f.bin",
+          "bytes": 409600,
+          "sha256": "feba460c07ac507ee4d632d26e5d8a5e398e9213e388a69303097e13467da0e0",
+          "url": "support/models/kitten-micro/expr-voice-5-f.bin"
+        },
+        {
+          "path": "models/kitten-micro/expr-voice-5-m.bin",
+          "bytes": 409600,
+          "sha256": "077314eae6dba26121affd23a2958d5640ff457befc3a2feff1cd1bcb054eb6a",
+          "url": "support/models/kitten-micro/expr-voice-5-m.bin"
+        },
+        {
+          "path": "models/kitten-micro/kitten_tts_micro_v0_8.onnx",
+          "bytes": 41384970,
+          "sha256": "95481626fee1ba70ce683e69c534fc7cb38433c46ce42d3abbeafb4b9f1a4123",
+          "url": "https://huggingface.co/KittenML/kitten-tts-micro-0.8/resolve/1ccf72b2c2048fd17efac7de2fab32d10e225084/kitten_tts_micro_v0_8.onnx"
+        },
+        {
+          "path": "models/kitten-micro/tokens.json",
+          "bytes": 1765,
+          "sha256": "c31f54084e4c7d95944fb33383bd65b0af7d84969ccc6ed6c1472fbbcb60b2ae",
+          "url": "support/models/kitten-micro/tokens.json"
+        },
+        {
+          "path": "models/kitten-micro/voices.json",
+          "bytes": 240,
+          "sha256": "e4f19618bba31bc5e2a8928640611b29183d0236f7e767a41c0914869be2f2d1",
+          "url": "support/models/kitten-micro/voices.json"
+        }
+      ],
+      "bytes": 44664248
+    },
+    "kitten-mini": {
+      "files": [
+        {
+          "path": "models/kitten-mini/config.json",
+          "bytes": 470,
+          "sha256": "6b160bc9b19e24ecb21e84bc14f8a7da21fdf47ec72d42450bc5cf514b61804a",
+          "url": "support/models/kitten-mini/config.json"
+        },
+        {
+          "path": "models/kitten-mini/expr-voice-2-f.bin",
+          "bytes": 409600,
+          "sha256": "04f743bea131051439bcbf4211aaa8834878aacb5e10fdf1858bd85fe41185be",
+          "url": "support/models/kitten-mini/expr-voice-2-f.bin"
+        },
+        {
+          "path": "models/kitten-mini/expr-voice-2-m.bin",
+          "bytes": 409600,
+          "sha256": "4fc6fdcbaac820aad0d2f3040709bc0e23e3674d9c7f2eaa67ddc9573f128de4",
+          "url": "support/models/kitten-mini/expr-voice-2-m.bin"
+        },
+        {
+          "path": "models/kitten-mini/expr-voice-3-f.bin",
+          "bytes": 409600,
+          "sha256": "fea2513a70fb2c6b02aedf6291ea7faa2253893d2316dc2e3f3f79300f0d2a22",
+          "url": "support/models/kitten-mini/expr-voice-3-f.bin"
+        },
+        {
+          "path": "models/kitten-mini/expr-voice-3-m.bin",
+          "bytes": 409600,
+          "sha256": "0c0b4b327eea6c8ea6926dba88a0ff3a12357db96cee1fb4426081a5c3ca2312",
+          "url": "support/models/kitten-mini/expr-voice-3-m.bin"
+        },
+        {
+          "path": "models/kitten-mini/expr-voice-4-f.bin",
+          "bytes": 409600,
+          "sha256": "05cbcece857d3c2e0b188977933b67ebecbc589d45e3c63c31e27fc71e381b88",
+          "url": "support/models/kitten-mini/expr-voice-4-f.bin"
+        },
+        {
+          "path": "models/kitten-mini/expr-voice-4-m.bin",
+          "bytes": 409600,
+          "sha256": "95ff42523e49ed1aec45c015846517396cd4a7abd1fb98c1eb67cfb4068eaa58",
+          "url": "support/models/kitten-mini/expr-voice-4-m.bin"
+        },
+        {
+          "path": "models/kitten-mini/expr-voice-5-f.bin",
+          "bytes": 409600,
+          "sha256": "9b56657235dcff9d3e0112cac4c4fe8e571993ab102a0e7155bd6882129b1fd3",
+          "url": "support/models/kitten-mini/expr-voice-5-f.bin"
+        },
+        {
+          "path": "models/kitten-mini/expr-voice-5-m.bin",
+          "bytes": 409600,
+          "sha256": "00d87de54370ac80e8a73d472dfd70c974b63cce83981e1165bcfd5f65037de7",
+          "url": "support/models/kitten-mini/expr-voice-5-m.bin"
+        },
+        {
+          "path": "models/kitten-mini/kitten_tts_mini_v0_8.onnx",
+          "bytes": 78268016,
+          "sha256": "0f5bbae4fc4800c98dbc544a87ecfa79510de2fb8222db30d12e5bfe9177df91",
+          "url": "https://huggingface.co/KittenML/kitten-tts-mini-0.8/resolve/c02725660cea441db4c383af69f1f26f5cd00947/kitten_tts_mini_v0_8.onnx"
+        },
+        {
+          "path": "models/kitten-mini/tokens.json",
+          "bytes": 1765,
+          "sha256": "c31f54084e4c7d95944fb33383bd65b0af7d84969ccc6ed6c1472fbbcb60b2ae",
+          "url": "support/models/kitten-mini/tokens.json"
+        },
+        {
+          "path": "models/kitten-mini/voices.json",
+          "bytes": 240,
+          "sha256": "e4f19618bba31bc5e2a8928640611b29183d0236f7e767a41c0914869be2f2d1",
+          "url": "support/models/kitten-mini/voices.json"
+        }
+      ],
+      "bytes": 81547291
+    },
+    "piper": {
+      "files": [
+        {
+          "path": "models/piper/en_US-lessac-medium.onnx",
+          "bytes": 63201294,
+          "sha256": "5efe09e69902187827af646e1a6e9d269dee769f9877d17b16b1b46eeaaf019f",
+          "url": "https://huggingface.co/rhasspy/piper-voices/resolve/5041a7a49ae5b3a0f30e6837769eb03fdbb231bd/en/en_US/lessac/medium/en_US-lessac-medium.onnx"
+        },
+        {
+          "path": "models/piper/en_US-lessac-medium.onnx.json",
+          "bytes": 4885,
+          "sha256": "efe19c417bed055f2d69908248c6ba650fa135bc868b0e6abb3da181dab690a0",
+          "url": "support/models/piper/en_US-lessac-medium.onnx.json"
+        }
+      ],
+      "bytes": 63206179
+    },
+    "supertonic": {
+      "files": [
+        {
+          "path": "models/supertonic/onnx/duration_predictor.onnx",
+          "bytes": 3700147,
+          "sha256": "c3eb91414d5ff8a7a239b7fe9e34e7e2bf8a8140d8375ffb14718b1c639325db",
+          "url": "https://huggingface.co/supertone-oss-archive/supertonic-3/resolve/aafc6e32416a594460b32413efc49d7fe4ce6d46/onnx/duration_predictor.onnx"
+        },
+        {
+          "path": "models/supertonic/onnx/text_encoder.onnx",
+          "bytes": 36416150,
+          "sha256": "c7befd5ea8c3119769e8a6c1486c4edc6a3bc8365c67621c881bbb774b9902ff",
+          "url": "https://huggingface.co/supertone-oss-archive/supertonic-3/resolve/aafc6e32416a594460b32413efc49d7fe4ce6d46/onnx/text_encoder.onnx"
+        },
+        {
+          "path": "models/supertonic/onnx/tts.json",
+          "bytes": 8253,
+          "sha256": "42078d3aef1cd43ab43021f3c54f47d2d75ceb4e75f627f118890128b06a0d09",
+          "url": "support/models/supertonic/onnx/tts.json"
+        },
+        {
+          "path": "models/supertonic/onnx/unicode_indexer.json",
+          "bytes": 277676,
+          "sha256": "9bf7346e43883a81f8645c81224f786d43c5b57f3641f6e7671a7d6c493cb24f",
+          "url": "support/models/supertonic/onnx/unicode_indexer.json"
+        },
+        {
+          "path": "models/supertonic/onnx/vector_estimator.onnx",
+          "bytes": 256534781,
+          "sha256": "883ac868ea0275ef0e991524dc64f16b3c0376efd7c320af6b53f5b780d7c61c",
+          "url": "https://huggingface.co/supertone-oss-archive/supertonic-3/resolve/aafc6e32416a594460b32413efc49d7fe4ce6d46/onnx/vector_estimator.onnx"
+        },
+        {
+          "path": "models/supertonic/onnx/vocoder.onnx",
+          "bytes": 101424195,
+          "sha256": "085de76dd8e8d5836d6ca66826601f615939218f90e519f70ee8a36ed2a4c4ba",
+          "url": "https://huggingface.co/supertone-oss-archive/supertonic-3/resolve/aafc6e32416a594460b32413efc49d7fe4ce6d46/onnx/vocoder.onnx"
+        },
+        {
+          "path": "models/supertonic/voice_styles/F1.json",
+          "bytes": 292046,
+          "sha256": "bbdec6ee00231c2c742ad05483df5334cab3b52fda3ba38e6a07059c4563dbc2",
+          "url": "support/models/supertonic/voice_styles/F1.json"
+        },
+        {
+          "path": "models/supertonic/voice_styles/F2.json",
+          "bytes": 292423,
+          "sha256": "7c722c6a72707b1a77f035d67f0d1351ba187738e06f7683e8c72b1df3477fc6",
+          "url": "support/models/supertonic/voice_styles/F2.json"
+        },
+        {
+          "path": "models/supertonic/voice_styles/F3.json",
+          "bytes": 290794,
+          "sha256": "12f6ef2573baa2defa1128069cb59f203e3ab67c92af77b42df8a0e3a2f7c6ab",
+          "url": "support/models/supertonic/voice_styles/F3.json"
+        },
+        {
+          "path": "models/supertonic/voice_styles/F4.json",
+          "bytes": 291808,
+          "sha256": "c2fa764c1225a76dfc3e2c73e8aa4f70d9ee48793860eb34c295fff01c2e032b",
+          "url": "support/models/supertonic/voice_styles/F4.json"
+        },
+        {
+          "path": "models/supertonic/voice_styles/F5.json",
+          "bytes": 291479,
+          "sha256": "45966e73316415626cf41a7d1c6f3b4c70dbc1ba2bee5c1978ef0ce33244fc8d",
+          "url": "support/models/supertonic/voice_styles/F5.json"
+        },
+        {
+          "path": "models/supertonic/voice_styles/M1.json",
+          "bytes": 291748,
+          "sha256": "e35604687f5d23694b8e91593a93eec0e4eca6c0b02bb8ed69139ab2ea6b0a5b",
+          "url": "support/models/supertonic/voice_styles/M1.json"
+        },
+        {
+          "path": "models/supertonic/voice_styles/M2.json",
+          "bytes": 292055,
+          "sha256": "b76cbf62bac707c710cf0ae5aba5e31eea1a6339a9734bfae33ab98499534a50",
+          "url": "support/models/supertonic/voice_styles/M2.json"
+        },
+        {
+          "path": "models/supertonic/voice_styles/M3.json",
+          "bytes": 290198,
+          "sha256": "ea1ac35ccb91b0d7ecad533a2fbd0eec10c91513d8951e3b25fbba99954e159b",
+          "url": "support/models/supertonic/voice_styles/M3.json"
+        },
+        {
+          "path": "models/supertonic/voice_styles/M4.json",
+          "bytes": 291522,
+          "sha256": "ca8eefad4fcd989c9379032ff3e50738adc547eeb5e221b82593a6d7b3bac303",
+          "url": "support/models/supertonic/voice_styles/M4.json"
+        },
+        {
+          "path": "models/supertonic/voice_styles/M5.json",
+          "bytes": 291469,
+          "sha256": "dd22b92740314321f8ae11c5e87f8dd60d060f15dd3a632b5adf77f471f77af2",
+          "url": "support/models/supertonic/voice_styles/M5.json"
+        }
+      ],
+      "bytes": 401276744
+    },
+    "phonon": {
+      "files": [
+        {
+          "path": "models/phonon/model.q8.gguf",
+          "bytes": 64512352,
+          "sha256": "a7d9aad2cd6dc66473f24a08bc6d2939030ef4d751ef82349361fbef3272dbae",
+          "url": "https://huggingface.co/gradium/phonon-31m-en/resolve/92741c5b07d085ff840e26fea8ce43110b87852f/model.q8.gguf"
+        },
+        {
+          "path": "models/phonon/config.json",
+          "bytes": 4634,
+          "sha256": "b5d0f88353638370d94035b7d73d7d6577c0554d78f8d7ecfd40490aae39ae85",
+          "url": "support/models/phonon/config.json"
+        },
+        {
+          "path": "models/phonon/tokenizer.json",
+          "bytes": 277967,
+          "sha256": "691a00068fa7b989f2f3e5ae5daa2d1a5bb319f2d5360deafcfb19a8bb6e7936",
+          "url": "support/models/phonon/tokenizer.json"
+        },
+        {
+          "path": "models/phonon/default-voice.safetensors",
+          "bytes": 256136,
+          "sha256": "dc537478eaadc1a5257fcda2e3501ab81e14c111a5d95a5838f350db2afd0f1a",
+          "url": "https://huggingface.co/gradium/phonon-31m-en/resolve/92741c5b07d085ff840e26fea8ce43110b87852f/default-voice.safetensors"
+        }
+      ],
+      "bytes": 65051089
+    },
+    "matcha": {
+      "files": [
+        {
+          "path": "models/matcha/date.fst",
+          "bytes": 59154,
+          "sha256": "eb8aa079ae3cb81d8f4404992f39d61a0cb990947512b5b8d1e54d1f6980e718",
+          "url": "support/models/matcha/date.fst"
+        },
+        {
+          "path": "models/matcha/dict/hmm_model.utf8",
+          "bytes": 519739,
+          "sha256": "f17790586ac86dd048c8adffed052c4bd2b28ed0682972c1275e59040c0589a7",
+          "url": "support/models/matcha/dict/hmm_model.utf8"
+        },
+        {
+          "path": "models/matcha/dict/idf.utf8",
+          "bytes": 5998717,
+          "sha256": "dbd1e03d72b2263cc8d84a4304ed77677eed9e7deaf43a1a5133bbba9733b535",
+          "url": "support/models/matcha/dict/idf.utf8"
+        },
+        {
+          "path": "models/matcha/dict/jieba.dict.utf8",
+          "bytes": 5071204,
+          "sha256": "3043b77068e09c9904f27cad82f12b6ebe9dbdb5aeff3b25e45ab7f9c1122b55",
+          "url": "support/models/matcha/dict/jieba.dict.utf8"
+        },
+        {
+          "path": "models/matcha/dict/pos_dict/char_state_tab.utf8",
+          "bytes": 327139,
+          "sha256": "28b7be1dd7369766a51445af4d42e9a2ba4bf374c13be5bc1ca7721e27271dbb",
+          "url": "support/models/matcha/dict/pos_dict/char_state_tab.utf8"
+        },
+        {
+          "path": "models/matcha/dict/pos_dict/prob_emit.utf8",
+          "bytes": 1687686,
+          "sha256": "c33c4cb7edf3b3a5947df7209b6e9f267eae1f21335d9e2bd2521ea07105457a",
+          "url": "support/models/matcha/dict/pos_dict/prob_emit.utf8"
+        },
+        {
+          "path": "models/matcha/dict/pos_dict/prob_start.utf8",
+          "bytes": 4347,
+          "sha256": "13623ea0e9300bdb597cb2da28770b7b385d6c0098d66e516083fb01b6bd5d96",
+          "url": "support/models/matcha/dict/pos_dict/prob_start.utf8"
+        },
+        {
+          "path": "models/matcha/dict/pos_dict/prob_trans.utf8",
+          "bytes": 124159,
+          "sha256": "f22363e2307408293d180c6f9f6b5cb75879d52f722f7764fa2d3d0ae2400236",
+          "url": "support/models/matcha/dict/pos_dict/prob_trans.utf8"
+        },
+        {
+          "path": "models/matcha/dict/stop_words.utf8",
+          "bytes": 8974,
+          "sha256": "b788b8a939d2e2fe079abd579ea98f12f9fb84370bfd0dddd81bb9381f7ab42c",
+          "url": "support/models/matcha/dict/stop_words.utf8"
+        },
+        {
+          "path": "models/matcha/dict/user.dict.utf8",
+          "bytes": 829194,
+          "sha256": "5faabcd0c52adf512de77fd7eee3d556da8c98b50f493b47c66a981b3a24959c",
+          "url": "support/models/matcha/dict/user.dict.utf8"
+        },
+        {
+          "path": "models/matcha/files.json",
+          "bytes": 361,
+          "sha256": "5a2b5e5c2502f9fb55c64766f158d6189bf88d0f9a159dcff6b76a4bdabd6ec8",
+          "url": "support/models/matcha/files.json"
+        },
+        {
+          "path": "models/matcha/lexicon.txt",
+          "bytes": 1363705,
+          "sha256": "38b886d46aefa50da6322a64d72fd595d5f4fae1051adb160d647541b1e0a4a2",
+          "url": "support/models/matcha/lexicon.txt"
+        },
+        {
+          "path": "models/matcha/model-steps-3.onnx",
+          "bytes": 75624188,
+          "sha256": "47e82b11454edeeb65adc4e44a24fd54c6715cd4d875cc2a20f75545ecc32d4d",
+          "url": "https://huggingface.co/csukuangfj/matcha-icefall-zh-baker/resolve/4ddc32d1724e5ea167116096b860de07b8dcb781/model-steps-3.onnx"
+        },
+        {
+          "path": "models/matcha/number.fst",
+          "bytes": 64482,
+          "sha256": "743f402181fcfebf76cc2f0546b71fa26476e626fbe4e460fb7b4c3a7a8bd5bd",
+          "url": "support/models/matcha/number.fst"
+        },
+        {
+          "path": "models/matcha/phone.fst",
+          "bytes": 88630,
+          "sha256": "1ac2b6fa56b1442320c4de7db08353bab8963a2b57f365eebcdd3a2d3562f8d7",
+          "url": "support/models/matcha/phone.fst"
+        },
+        {
+          "path": "models/matcha/tokens.txt",
+          "bytes": 19591,
+          "sha256": "56209b2bf609d5ac1d66ede6dae7bf5254bd3f8aa24c4a6823713d5b884d87ba",
+          "url": "support/models/matcha/tokens.txt"
+        },
+        {
+          "path": "models/matcha/vocos-22khz-univ.onnx",
+          "bytes": 53884024,
+          "sha256": "0574a135aa1db2de6e181050db2ec528496cacd4a4701fc5d7faf9f9804c0081",
+          "parts": [
+            {
+              "url": "packs/matcha/vocos-22khz-univ.onnx.part-00",
+              "bytes": 50331648
+            },
+            {
+              "url": "packs/matcha/vocos-22khz-univ.onnx.part-01",
+              "bytes": 3552376
+            }
+          ]
+        }
+      ],
+      "bytes": 145675294
+    },
+    "zipvoice": {
+      "files": [
+        {
+          "path": "models/zipvoice/decoder.int8.onnx",
+          "bytes": 124657100,
+          "sha256": "3cc2e08a96610d7ea1b227398e97cdbbe0414499741d3aec0b8113db2a2ab251",
+          "parts": [
+            {
+              "url": "packs/zipvoice/decoder.int8.onnx.part-00",
+              "bytes": 50331648
+            },
+            {
+              "url": "packs/zipvoice/decoder.int8.onnx.part-01",
+              "bytes": 50331648
+            },
+            {
+              "url": "packs/zipvoice/decoder.int8.onnx.part-02",
+              "bytes": 23993804
+            }
+          ]
+        },
+        {
+          "path": "models/zipvoice/encoder.int8.onnx",
+          "bytes": 5570211,
+          "sha256": "f2de9a761a85e5ddd125dee6e05bad1c7ee92c11b83b4d775dab216a6aa41379",
+          "parts": [
+            {
+              "url": "packs/zipvoice/encoder.int8.onnx.part-00",
+              "bytes": 5570211
+            }
+          ]
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/af_dict",
+          "bytes": 121473,
+          "sha256": "25729d3bf4c4a0f08da60aea9eb5a0cf352630f83fab1ab0c3955b7740da1776",
+          "url": "support/models/zipvoice/espeak-ng-data/af_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/am_dict",
+          "bytes": 63878,
+          "sha256": "9954365860682c756c8c4459577d3aa0ab77ad0cba6798b746033ada5c3d4bea",
+          "url": "support/models/zipvoice/espeak-ng-data/am_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/an_dict",
+          "bytes": 6691,
+          "sha256": "6cf38cedb6693aade49e5a5d27a3c92516a5335125bf85fcae58282e66fb82fd",
+          "url": "support/models/zipvoice/espeak-ng-data/an_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ar_dict",
+          "bytes": 478165,
+          "sha256": "72316426e797777fe4df9420935a3b6a79b37d7e3f3948537ba71cd7b21b2541",
+          "url": "support/models/zipvoice/espeak-ng-data/ar_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/as_dict",
+          "bytes": 5005,
+          "sha256": "5bcb74ff4558a60c5ba1a48a2a92c01513ee2d29fe30c5a38dc5308c54f1cf49",
+          "url": "support/models/zipvoice/espeak-ng-data/as_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/az_dict",
+          "bytes": 43773,
+          "sha256": "e352b2dcf811662d79f4beaaa0c7750706cf669c0409fd815a9bd0244b1adfc7",
+          "url": "support/models/zipvoice/espeak-ng-data/az_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ba_dict",
+          "bytes": 2098,
+          "sha256": "246c8c655ceed43d9ff44a65de5f933f16255489d0b181b1a46a83e1fd5a0354",
+          "url": "support/models/zipvoice/espeak-ng-data/ba_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/be_dict",
+          "bytes": 2652,
+          "sha256": "232fb0debfc8fdca9b8f2494770ff23535f7f887bbebb0178abffc243490e798",
+          "url": "support/models/zipvoice/espeak-ng-data/be_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/bg_dict",
+          "bytes": 87051,
+          "sha256": "8fa3adec8e18a3e695b2bbea1d4780182e17222d8b9f8da9908a237828f6b063",
+          "url": "support/models/zipvoice/espeak-ng-data/bg_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/bn_dict",
+          "bytes": 89979,
+          "sha256": "2b59ec34c07955ca5b7814fa5152c33fa357880590703eefab1f3081f031fdef",
+          "url": "support/models/zipvoice/espeak-ng-data/bn_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/bpy_dict",
+          "bytes": 5226,
+          "sha256": "a4321d9ba80bd60f49e0bee5aae57f1ae9c49b7a1c3d4ba384338fe9bf3b6a92",
+          "url": "support/models/zipvoice/espeak-ng-data/bpy_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/bs_dict",
+          "bytes": 47068,
+          "sha256": "d5df564f511af082884719685db86ec4df23467cf012ce25e898540baf9de65b",
+          "url": "support/models/zipvoice/espeak-ng-data/bs_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ca_dict",
+          "bytes": 45566,
+          "sha256": "1be203855ecb0bdfe66578ef5552f83289e39972d78c52714d061b7f7493df4a",
+          "url": "support/models/zipvoice/espeak-ng-data/ca_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/chr_dict",
+          "bytes": 2859,
+          "sha256": "1853980c673015327bed3d4e5f7e88c2ee3bd8a922bcdd232a6497277e903bce",
+          "url": "support/models/zipvoice/espeak-ng-data/chr_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/cmn_dict",
+          "bytes": 1566335,
+          "sha256": "109aaa7708d3727382acb3ae41d8e2094a7e2bb9f651a81835be22a6f08071fe",
+          "url": "support/models/zipvoice/espeak-ng-data/cmn_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/cs_dict",
+          "bytes": 49645,
+          "sha256": "5ec02aba90465007f20a5c8aeb889275834cfa8c8f621c3d9bee1ca90d21788d",
+          "url": "support/models/zipvoice/espeak-ng-data/cs_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/cv_dict",
+          "bytes": 1344,
+          "sha256": "8260837c8f18fbe5870905ebb2850dfd18e252150ad6c868b96d9d2c6398ea8a",
+          "url": "support/models/zipvoice/espeak-ng-data/cv_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/cy_dict",
+          "bytes": 43130,
+          "sha256": "31d74ccad218ab80b79566caeb8d21bcf0fe43326ed7c437fa736d39b85e603e",
+          "url": "support/models/zipvoice/espeak-ng-data/cy_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/da_dict",
+          "bytes": 245287,
+          "sha256": "fe0c21895b4844868612f9ea846bc6010e30b5dd1f4cb1567459d73d2792a8ac",
+          "url": "support/models/zipvoice/espeak-ng-data/da_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/de_dict",
+          "bytes": 68276,
+          "sha256": "e9ac048df5cde03b74907d591c7b29b45ee9ec5fcd4592b0b894f0083572fcfd",
+          "url": "support/models/zipvoice/espeak-ng-data/de_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/el_dict",
+          "bytes": 72841,
+          "sha256": "5d9f759750131da777d2fd4f06aa602ed746d38f27b84dd9a2d4a550f2cd452e",
+          "url": "support/models/zipvoice/espeak-ng-data/el_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/en_dict",
+          "bytes": 166944,
+          "sha256": "71bd330ba8a2e3e8076e631508208ef49449d6147c17b7bd2b4b1e1468292e35",
+          "url": "support/models/zipvoice/espeak-ng-data/en_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/eo_dict",
+          "bytes": 4666,
+          "sha256": "849f061abddd5388bac112b32e6f7bf747e15e1b3ae53fe91079381effff4cc9",
+          "url": "support/models/zipvoice/espeak-ng-data/eo_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/es_dict",
+          "bytes": 49252,
+          "sha256": "3fa93e251eab80838a2d6207ee58c9c847270a65fe3fae98850e0185b5a2186c",
+          "url": "support/models/zipvoice/espeak-ng-data/es_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/et_dict",
+          "bytes": 44263,
+          "sha256": "1a6734b4e6bc9de9a4c94cfb434873e0a7f4ae4ec89549b3137ae5491cf655da",
+          "url": "support/models/zipvoice/espeak-ng-data/et_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/eu_dict",
+          "bytes": 48841,
+          "sha256": "762a6eff63552ef72cd88bf1e92dc5a823eb378d50cb85c7917e8c5bba079137",
+          "url": "support/models/zipvoice/espeak-ng-data/eu_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/fa_dict",
+          "bytes": 292423,
+          "sha256": "f92f35ce7eb1d97360016617d97786412a94af55b776a18f1c280dab4f43befd",
+          "url": "support/models/zipvoice/espeak-ng-data/fa_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/fi_dict",
+          "bytes": 43928,
+          "sha256": "dda999437bd4b37a7f7400a2230aace1200a52906ab0b1ff3507d44ab19d64b1",
+          "url": "support/models/zipvoice/espeak-ng-data/fi_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/fr_dict",
+          "bytes": 63727,
+          "sha256": "e399ab924c4d10beef1fc310b30ea56e4ddfd8b4b64b8ed978e9c65394d49b2d",
+          "url": "support/models/zipvoice/espeak-ng-data/fr_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ga_dict",
+          "bytes": 52673,
+          "sha256": "b2db03d21f7900b697d7dbb8bec855cd1117e9867f19884faf11c4df626659f5",
+          "url": "support/models/zipvoice/espeak-ng-data/ga_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/gd_dict",
+          "bytes": 49121,
+          "sha256": "e92b47dcf9a001363ffee1e62863faf264ff5f16e10cd9cf1f1e83ca89ca14aa",
+          "url": "support/models/zipvoice/espeak-ng-data/gd_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/gn_dict",
+          "bytes": 3248,
+          "sha256": "7640df272b192a68ba401294bf9197ab46d0b141da7a358ad1986e7f77e7f29a",
+          "url": "support/models/zipvoice/espeak-ng-data/gn_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/grc_dict",
+          "bytes": 3433,
+          "sha256": "488779493993d221b09e713e104a221ac1bb35765f826acc26d3d3c1aa3a35ed",
+          "url": "support/models/zipvoice/espeak-ng-data/grc_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/gu_dict",
+          "bytes": 82480,
+          "sha256": "cb1fbfb53bab2ec6d9e44cd9d12ccb9b80de49f274d772314389c477eef530fd",
+          "url": "support/models/zipvoice/espeak-ng-data/gu_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/hak_dict",
+          "bytes": 3335,
+          "sha256": "e3075c7d281f95a2ce2264c01edbd09e962cb3ed29400766c5d2116a08a185c8",
+          "url": "support/models/zipvoice/espeak-ng-data/hak_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/haw_dict",
+          "bytes": 2443,
+          "sha256": "2b4e77b61cadfc5ee622aa8b1d23941e36101d9bdbf8d809e0fa1b442d2c3f74",
+          "url": "support/models/zipvoice/espeak-ng-data/haw_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/he_dict",
+          "bytes": 6963,
+          "sha256": "a8bf0d939d630e9e5097ad361a7765297baf297fd7d06e89f48a79ead980869e",
+          "url": "support/models/zipvoice/espeak-ng-data/he_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/hi_dict",
+          "bytes": 92143,
+          "sha256": "5a68c9532624e57ac845b26ce1e2e5034c4f6353bede46ecbe57e583ec8effd6",
+          "url": "support/models/zipvoice/espeak-ng-data/hi_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/hr_dict",
+          "bytes": 49388,
+          "sha256": "5f98fcf05f97335a5436a8a9643677da6f158f2a9ee1d41bdda1725b1bb3527e",
+          "url": "support/models/zipvoice/espeak-ng-data/hr_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ht_dict",
+          "bytes": 1803,
+          "sha256": "d577219d15c29396db254aed958358456ec1501cdf62cb4ca5413752f2ee7cc1",
+          "url": "support/models/zipvoice/espeak-ng-data/ht_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/hu_dict",
+          "bytes": 153785,
+          "sha256": "055d563b839d599db40be5b1cc2af9d31793795b328eb8d4f389ec7d38fe7e81",
+          "url": "support/models/zipvoice/espeak-ng-data/hu_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/hy_dict",
+          "bytes": 62263,
+          "sha256": "8b808ad8f1d4cae32b3b785b96d1e27b3af28e32f4dddfed7c93e129d63b2587",
+          "url": "support/models/zipvoice/espeak-ng-data/hy_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ia_dict",
+          "bytes": 331275,
+          "sha256": "1c665603a82beb81e0cef2878c9b44642ae6d519e301fbbd06326e03325febf3",
+          "url": "support/models/zipvoice/espeak-ng-data/ia_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/id_dict",
+          "bytes": 43458,
+          "sha256": "8fb3f23f80f71f023219cee7032223f3f6886cc5040eb4c8c507f79d1b84e98d",
+          "url": "support/models/zipvoice/espeak-ng-data/id_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/intonations",
+          "bytes": 2040,
+          "sha256": "3f8af65fd3eda9759a10f021d61361c120871f463515229c925995c7f90918cc",
+          "url": "support/models/zipvoice/espeak-ng-data/intonations"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/io_dict",
+          "bytes": 2165,
+          "sha256": "0d9d6995fead1ccdd5512f7909ec8f9efc8ccc97f5c9d23ecae6b3ba77ffadbf",
+          "url": "support/models/zipvoice/espeak-ng-data/io_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/is_dict",
+          "bytes": 44354,
+          "sha256": "8eeab5b1ca3f75362881fae3de3316fcaff281179a4c51fceb0098f11ead96e0",
+          "url": "support/models/zipvoice/espeak-ng-data/is_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/it_dict",
+          "bytes": 152889,
+          "sha256": "111f968359c9ebe36b107a2565ba9f258bab337d3cbe37e44871980a8f21ce6b",
+          "url": "support/models/zipvoice/espeak-ng-data/it_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ja_dict",
+          "bytes": 47652,
+          "sha256": "0d1135d3cdfed811d3eac7c90a2e277329fa6f060cdd23af287db161982cab44",
+          "url": "support/models/zipvoice/espeak-ng-data/ja_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/jbo_dict",
+          "bytes": 2243,
+          "sha256": "71298417de1e5fd07df275270a5d47ca8820cb8c9f5dc2156c070b7a3ae7999c",
+          "url": "support/models/zipvoice/espeak-ng-data/jbo_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ka_dict",
+          "bytes": 87775,
+          "sha256": "c8624947110a13bee72d4fc15b06026004df3f40c16c7b917d27e369ca122a32",
+          "url": "support/models/zipvoice/espeak-ng-data/ka_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/kk_dict",
+          "bytes": 1859,
+          "sha256": "88dc0106629a57d0aca5073afb11db1a044799185355088a7ad4331c836affd3",
+          "url": "support/models/zipvoice/espeak-ng-data/kk_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/kl_dict",
+          "bytes": 2838,
+          "sha256": "ec441964d7fbd4622bb628327903d5c6c999c95d539b2e061884decf95ac30e3",
+          "url": "support/models/zipvoice/espeak-ng-data/kl_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/kn_dict",
+          "bytes": 87828,
+          "sha256": "c51e0385937b407b36c02fd2c85dfecdc5cac411398ee8a74eca15b35617af64",
+          "url": "support/models/zipvoice/espeak-ng-data/kn_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ko_dict",
+          "bytes": 47523,
+          "sha256": "f629060f27d597e0fd52d8010609f41c8a0ec28f5c2bb0016850e00244950681",
+          "url": "support/models/zipvoice/espeak-ng-data/ko_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/kok_dict",
+          "bytes": 6394,
+          "sha256": "52659dec01d1b119bfef56b622430f5525c50af0144c9f9688cb3c22cc02ed31",
+          "url": "support/models/zipvoice/espeak-ng-data/kok_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ku_dict",
+          "bytes": 2265,
+          "sha256": "65de1c5429e8d193775b36fcf169a60fbbb9964ef13a4a1bab7ff0ce855cad20",
+          "url": "support/models/zipvoice/espeak-ng-data/ku_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ky_dict",
+          "bytes": 64977,
+          "sha256": "def4427fd4070673c073b892c7b229f8c3f17eb1df36bea2ec7188ddcfb4d0ea",
+          "url": "support/models/zipvoice/espeak-ng-data/ky_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/la_dict",
+          "bytes": 3806,
+          "sha256": "17818dd567936fde032404fbbd6177844b9f5fc5a915480f567272147936f917",
+          "url": "support/models/zipvoice/espeak-ng-data/la_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/aav/vi",
+          "bytes": 111,
+          "sha256": "3199c980f9e23a88a2aa693cd631bf4fcb0f3408c4272bc01b7ac0ff8e79d778",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/aav/vi"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/aav/vi-VN-x-central",
+          "bytes": 143,
+          "sha256": "b351f13c6ed0da37561df25f45579872ff9863920ad66b94e27327a2c611755b",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/aav/vi-VN-x-central"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/aav/vi-VN-x-south",
+          "bytes": 142,
+          "sha256": "c0a0a2c894cd57b0bbacf9ef4efb8d89bfaf9feb164830e1539f599e7cc4e021",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/aav/vi-VN-x-south"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/art/eo",
+          "bytes": 41,
+          "sha256": "0254b93c8af79d9666a7667ca8b33b21a5453012da4ea0acd79660a9695f89d4",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/art/eo"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/art/ia",
+          "bytes": 29,
+          "sha256": "8fb11718030f8b29146f773ca462b838a6c660f166933eb6f1498c361f2e958b",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/art/ia"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/art/io",
+          "bytes": 50,
+          "sha256": "8e8391c7f40b7f9d2307faff8018a40dd2b448df4bd581a2950ee8393a00cebf",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/art/io"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/art/jbo",
+          "bytes": 69,
+          "sha256": "d9529de82dccbd95f83c1de401f4ea661609bde644546e9ef421241b7043c00e",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/art/jbo"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/art/lfn",
+          "bytes": 135,
+          "sha256": "394874fd9022e37cdc307c3386e81f1c0c133a8e9c5fdff74888b519f2c6d648",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/art/lfn"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/art/piqd",
+          "bytes": 56,
+          "sha256": "d1a559b714cd8dd0ea9e46c4574e06c4f451957fb17bf39b945a89b9586f8b97",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/art/piqd"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/art/py",
+          "bytes": 140,
+          "sha256": "59e54b95e8571417f43db37a7fd7e351af4e22a8c250cfb66af394f8ed6c4e9c",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/art/py"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/art/qdb",
+          "bytes": 57,
+          "sha256": "52b83fc4f294580ebabd71df641ab5beec6b308758a3458b497124737589a7d8",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/art/qdb"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/art/qya",
+          "bytes": 173,
+          "sha256": "78ae3f4d70208a9f69e2c26a6a3b5db28d7e6a58740fae937f51dd7fc9faeb1b",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/art/qya"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/art/sjn",
+          "bytes": 175,
+          "sha256": "61d85974b6841dfbfcc8cb92ad0742696cb87a6a85d5a28fe99895e46ef9de6f",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/art/sjn"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/azc/nci",
+          "bytes": 114,
+          "sha256": "7bf70cb18e969398f74428b91c694a4483eaebd6733ecc437eb8714bbf7fff76",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/azc/nci"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/bat/lt",
+          "bytes": 28,
+          "sha256": "7691c7ca1e79fc9728c70a0d22830eb113a0124bf96807e2a1ace3c6bf0c2f89",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/bat/lt"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/bat/ltg",
+          "bytes": 312,
+          "sha256": "be716cbbdcb5fe319eed88abd4a44c3329a06e1dc468c8363d3f43cca2683a11",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/bat/ltg"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/bat/lv",
+          "bytes": 229,
+          "sha256": "f08a801dacccace62f5b90166428e90e088818d92dd5f9333ebbe834b0f21c16",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/bat/lv"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/bnt/sw",
+          "bytes": 41,
+          "sha256": "271dd28b3ec41adeea53f1146249ba6cab61572963ab2743041114d95784e368",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/bnt/sw"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/bnt/tn",
+          "bytes": 42,
+          "sha256": "2243a1fc208dfdc37e154e837c0e782afc325d4acfbacc22718b7f05583ace92",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/bnt/tn"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/ccs/ka",
+          "bytes": 124,
+          "sha256": "68788b99dba7b82cdf8fc9dd05134bd72cf21f0b4c07b13b67b6f036e6294cba",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/ccs/ka"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/cel/cy",
+          "bytes": 37,
+          "sha256": "67bc33b4a66041e6343dfb98e1950d1089eecb68731f346fcc4f47cd07e79970",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/cel/cy"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/cel/ga",
+          "bytes": 66,
+          "sha256": "29c2cc5736ceb2bd9ef745694d4abf7ed363a33569dfbe745811d4703b7b6cce",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/cel/ga"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/cel/gd",
+          "bytes": 51,
+          "sha256": "7da0ba464579c367089109826ec15c2584a17417cca4a2c66dae0318d33e3128",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/cel/gd"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/cus/om",
+          "bytes": 39,
+          "sha256": "b7c563f1effd83c08f3d229fb5a13d074513b85165ce4359a674ef30ca71786b",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/cus/om"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/dra/kn",
+          "bytes": 55,
+          "sha256": "c988a5226fa27ee6768b45566ce999ced9a4b68f8e79232b323d5903f4bb2258",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/dra/kn"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/dra/ml",
+          "bytes": 57,
+          "sha256": "aa7e1f1f239ba55a8a79ed1f3544e9a51b94efe53925de60d4ff737273660b5c",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/dra/ml"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/dra/ta",
+          "bytes": 51,
+          "sha256": "5bc213eb163bbf069cbfe4f2e9f7e7db71a719d8c0a96e95401d94c992960ed7",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/dra/ta"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/dra/te",
+          "bytes": 70,
+          "sha256": "176ca4a81feb2181393edff3e2d5c0253cb52239392c4b809c61501d60c69811",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/dra/te"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/esx/kl",
+          "bytes": 30,
+          "sha256": "d08cf6ff60b99e6c2ceda549bcbb1a57580915d6a4d50c7f0f5d75289d9fb45a",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/esx/kl"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/eu",
+          "bytes": 54,
+          "sha256": "a16e4e4d9b910a6e25a2a55913c812badc4fc3cbece0b8d49a64af112782d5a5",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/eu"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmq/da",
+          "bytes": 43,
+          "sha256": "e8dd5e0d30ff0694a7ee839faa8ed35c015eb927a737aba1f120c00005692eaf",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmq/da"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmq/is",
+          "bytes": 27,
+          "sha256": "16c077e6222acfc7702046fa3579bb5d6b57ece98646229e13be2233f9fdcbd7",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmq/is"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmq/nb",
+          "bytes": 87,
+          "sha256": "d47966621312fb95570539f446982f6deb98fd46d9b71fec4a0005a6bace8f46",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmq/nb"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmq/sv",
+          "bytes": 25,
+          "sha256": "02727d3b25fc82409bd2cd1ebb444fdb2d5d3f3de7f76b95fc9ed9164c3e59c3",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmq/sv"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmw/af",
+          "bytes": 123,
+          "sha256": "fb8ccc05f5eae1754b5aa7e92cb919defdd0810b70eec19f7c77cf836e51db09",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmw/af"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmw/de",
+          "bytes": 42,
+          "sha256": "f3cca92f94b70f8c25a29ee0a4c9ce4c7f1022241532e0647fa2b7f698bf104e",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmw/de"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmw/en",
+          "bytes": 140,
+          "sha256": "4605d5330801de3641c6e366d15f129ea1f5ffbce8722642aba01ace07ab9c83",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmw/en"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmw/en-029",
+          "bytes": 335,
+          "sha256": "faeb8cb201056775f733acbd908c66555fe57bf01cb063920f178f389cbf85d3",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmw/en-029"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmw/en-GB-scotland",
+          "bytes": 295,
+          "sha256": "1ce4282c1f4385dbaf0035e799b2ab1ee9e9a3ab4829100594a3047727b52353",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmw/en-GB-scotland"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmw/en-GB-x-gbclan",
+          "bytes": 238,
+          "sha256": "2040e176f1f7f27bdce81c32d7e2b1662449d54d264afd3c0ed871b8e42b6e46",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmw/en-GB-x-gbclan"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmw/en-GB-x-gbcwmd",
+          "bytes": 188,
+          "sha256": "927a5ab891c65b30b4426b151d1623a01024f6b773a38497ba1c90cd77a95747",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmw/en-GB-x-gbcwmd"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmw/en-GB-x-rp",
+          "bytes": 249,
+          "sha256": "d0625af7f58561b1b8cf96fd7f93eee6553bcb3eadb9020ae0757bf96e5115e5",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmw/en-GB-x-rp"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmw/en-US",
+          "bytes": 257,
+          "sha256": "41534c2a22df5dd4f1052ff9e1a33a3ea7bff5a26b5c02bdad5ba8ddb7524704",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmw/en-US"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmw/en-US-nyc",
+          "bytes": 271,
+          "sha256": "e8ee9168376d1f7d9e7dcda7c4644c36c529a8bea816e6380895364db46ea2e3",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmw/en-US-nyc"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmw/lb",
+          "bytes": 31,
+          "sha256": "071beb0e769afeba32177796fc0f1386bdc89a3234bed2bf720e76cbf73f5b99",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmw/lb"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/gmw/nl",
+          "bytes": 23,
+          "sha256": "56ae04fae28ae9371ed6db28193189e4ee962ba8236f0bcdeef6a06ea4dee374",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/gmw/nl"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/grk/el",
+          "bytes": 23,
+          "sha256": "0b529c998af07c72bf516b5750709464f6258c56c6916b8b8f0c843be9836fca",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/grk/el"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/grk/grc",
+          "bytes": 99,
+          "sha256": "319f950b1ad7b1f37efaa390540bf957bddac16d0557a6c3adaff27e0c64e12e",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/grk/grc"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/inc/as",
+          "bytes": 42,
+          "sha256": "3f58f5628f792b00a5ae6e8fe3bf8696f64af2838e5723799ddbab6027a0b378",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/inc/as"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/inc/bn",
+          "bytes": 25,
+          "sha256": "bc3ce23384b9d0bb3bac06a09d90f690fae32a492dcbb030f0e56ba67b5d656c",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/inc/bn"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/inc/bpy",
+          "bytes": 39,
+          "sha256": "e528d1189b995b94966cef4cc182469cc54f7da8efc5860375c4ecf186ce6146",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/inc/bpy"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/inc/gu",
+          "bytes": 42,
+          "sha256": "f938a755d270745188c2cf2aacba06642a96bb73ba2a0325384121b9d5ec5407",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/inc/gu"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/inc/hi",
+          "bytes": 23,
+          "sha256": "3c1c3f916f57f2d6d6cbf7923c0f39a36ac2140e2a69ddffce917d7b8bf3ccab",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/inc/hi"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/inc/kok",
+          "bytes": 26,
+          "sha256": "810ee23fbbe9c186a036bc12f4e5c0de674a132e2e099c9b3dece2a1c9cdb28a",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/inc/kok"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/inc/mr",
+          "bytes": 41,
+          "sha256": "29063ff3a5257d0d3d7c215dfd4c14deed39e1d48f15894202e6712459720efd",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/inc/mr"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/inc/ne",
+          "bytes": 37,
+          "sha256": "d53fda082ec174ef33ed3c3468fc973c43b4ef71aca8c1a28cb344668f4838dc",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/inc/ne"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/inc/or",
+          "bytes": 39,
+          "sha256": "9b52ede7d19659f884854de3dff12597a96f4d6ec7cb4146d2f8dad1453c742f",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/inc/or"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/inc/pa",
+          "bytes": 25,
+          "sha256": "eed3cf477f81d13559dbb367256f9532b20dad1432c15b206c777217b8f570ca",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/inc/pa"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/inc/sd",
+          "bytes": 66,
+          "sha256": "65bfe0e37799029d42a370eb627cca5aa4108b967fba6c8141878d693c903619",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/inc/sd"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/inc/si",
+          "bytes": 55,
+          "sha256": "8f0993b35ba5b075c38ae76640971256e560abfbd721b608d16a48588932596d",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/inc/si"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/inc/ur",
+          "bytes": 94,
+          "sha256": "5b7af7474fac265c7bd7d269111994a09610f954690698f55a8613f3fa973318",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/inc/ur"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/ine/hy",
+          "bytes": 61,
+          "sha256": "b6ad6129079c49ca915c3005ecb74a02bf5d69cbbc8ec3f8e0f6b949cb3a768f",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/ine/hy"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/ine/hyw",
+          "bytes": 365,
+          "sha256": "26f8a863c74b3d19c9c42fcf16ae5151c12ac52ef8fab36cae1e5f0d4ad30e6a",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/ine/hyw"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/ine/sq",
+          "bytes": 103,
+          "sha256": "865fde9017b5af82acb844e5f9793998fed422a208ad8aaf9dedacad3bf27af1",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/ine/sq"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/ira/fa",
+          "bytes": 90,
+          "sha256": "0dc7e93be4d1fbdf7ff52de2fe8bcdc23304e6d86e012b4ab8276d626b5d980c",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/ira/fa"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/ira/fa-Latn",
+          "bytes": 269,
+          "sha256": "a04cf8efed8db1ac33b306f1f8c6f42733dace87c9fc9f34a2d227b3bb291e28",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/ira/fa-Latn"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/ira/ku",
+          "bytes": 40,
+          "sha256": "57db3a210d73412a49e961dbed9b27077f5c7b967a19a0eb9f9363ea4b16cea5",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/ira/ku"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/iro/chr",
+          "bytes": 569,
+          "sha256": "f0e2fb8549306c07f571d3e77c89b1d3e9022d448d58e5d424441e01ccce88be",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/iro/chr"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/itc/la",
+          "bytes": 297,
+          "sha256": "b70d13a264352eba2d22a5d0ef21730849509d18f7277320b008a56decc6efc2",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/itc/la"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/jpx/ja",
+          "bytes": 52,
+          "sha256": "6fd980445bc52e0f593062929f5b62831448abaae2a92739beba49df27a79743",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/jpx/ja"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/ko",
+          "bytes": 51,
+          "sha256": "c2dfbf88d9aa2ac9bf2f30e92e260120e4f2c21123a02265014ae98d59d5774e",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/ko"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/map/haw",
+          "bytes": 42,
+          "sha256": "b19f22efb6714354d8d1360f449e05f0f84d50d6fa3c98fcfd619ea1b4ba8996",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/map/haw"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/miz/mto",
+          "bytes": 183,
+          "sha256": "e33aba5e8159730f62004b22518d627c796f7d039431e5d9217b498f10341976",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/miz/mto"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/myn/quc",
+          "bytes": 210,
+          "sha256": "76a75b77c672c432b56b84d517310d6aa75c4b3f9de580e290199804366174ea",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/myn/quc"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/poz/id",
+          "bytes": 134,
+          "sha256": "ce1fcddab3e756a7cdba3dd009ad24cd57e1fde29ce395698355da24e32a6075",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/poz/id"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/poz/mi",
+          "bytes": 367,
+          "sha256": "2146cf3868c79b853bb5e41ddbf611d51b4b0a14087199f16194313562b98987",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/poz/mi"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/poz/ms",
+          "bytes": 430,
+          "sha256": "8a965182ee0c5a41357197c05cf047d21b96744775a57a344d831a961e30351b",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/poz/ms"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/qu",
+          "bytes": 88,
+          "sha256": "3069e443ecf3421bcb3b35b864e1a89fa9465af072f86eedd46a415990aba6e6",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/qu"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/roa/an",
+          "bytes": 27,
+          "sha256": "ff8aa97c55286cc90531cad5df3cd36165abba11502a84d53b0fcd923f965f23",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/roa/an"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/roa/ca",
+          "bytes": 25,
+          "sha256": "787df034320467236292bb46f1f8781a2998a185f117d350c018b6cfcf360854",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/roa/ca"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/roa/es",
+          "bytes": 63,
+          "sha256": "966aa015ea5646d79f0ca4807cf5da7339aabd3782b55cfa5eb0d8c3fc8fc588",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/roa/es"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/roa/es-419",
+          "bytes": 167,
+          "sha256": "ff0f84457ac40e3bcf61d6de58028312be74e0e6cbc3b742f31b3ce729c2aa0c",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/roa/es-419"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/roa/fr",
+          "bytes": 79,
+          "sha256": "95f44834b48c075dad13eace54d2c98ff79b81aa0074dd67eebaf66c2909eef8",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/roa/fr"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/roa/fr-BE",
+          "bytes": 84,
+          "sha256": "72496a316e47b997f893500b8953dc01a10b86a2d4238e13c1260f50b47d792a",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/roa/fr-BE"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/roa/fr-CH",
+          "bytes": 86,
+          "sha256": "b449b0fd99d9cd93261fe1c6b816448b99b4a10420bee3f301e669568ad0de55",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/roa/fr-CH"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/roa/ht",
+          "bytes": 140,
+          "sha256": "389bdf3e984a2f93b7060baad82452dac65b83bf4482d3884525a176ae0e0524",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/roa/ht"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/roa/it",
+          "bytes": 109,
+          "sha256": "0d9069eb9a96db1c55c131b2bb7d1f5255c68fbddc2199ffd3295b52519a3256",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/roa/it"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/roa/pap",
+          "bytes": 62,
+          "sha256": "41a5b5e91482a5498a66711c05873a634bbd418786b0ba037032df846344cfc1",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/roa/pap"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/roa/pt",
+          "bytes": 95,
+          "sha256": "a44060072f790e41912c57b7d52f7b6438c4383e0dabdb052f6fdb7aacc23493",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/roa/pt"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/roa/pt-BR",
+          "bytes": 109,
+          "sha256": "84dd4e34c970fadbe32211eadecfdfaab52432479c0911e43300da88a33398ba",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/roa/pt-BR"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/roa/ro",
+          "bytes": 26,
+          "sha256": "b12af10ffc3f89cb87767ca701c6fea0def8a712de63426a9c3d0bf2432467f8",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/roa/ro"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/sai/gn",
+          "bytes": 47,
+          "sha256": "ff82d2d163d3e06adb580254d89012e689b2615c46579883562838ab401fb5d5",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/sai/gn"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/sem/am",
+          "bytes": 41,
+          "sha256": "5970b16bf865528ee96a78c08498244bc8f54218fc2add499716b0e0c09969fb",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/sem/am"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/sem/ar",
+          "bytes": 50,
+          "sha256": "43f418f8140e5a7bd7096963da20ccba9247f6be1fcdb08cb53dd7967dd72eee",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/sem/ar"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/sem/he",
+          "bytes": 40,
+          "sha256": "de9195e743b91fb7fbef7493bd5ddccad14c380a58d5aeb7c1d11d3419ef3b86",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/sem/he"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/sem/mt",
+          "bytes": 41,
+          "sha256": "d23f38fae3253b6fb42e3336760ab482e676893692455465448bc9fbc0ac3e83",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/sem/mt"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/sit/cmn",
+          "bytes": 686,
+          "sha256": "a130a38e3b622735c2401cb37f6719f46995e84a133729185cef9a543ec0b072",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/sit/cmn"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/sit/cmn-Latn-pinyin",
+          "bytes": 161,
+          "sha256": "14c2fc097db280416b688c2bf97de2e5da532c279754020fde7bf6cd624cdd10",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/sit/cmn-Latn-pinyin"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/sit/hak",
+          "bytes": 128,
+          "sha256": "c03c30b43e0b0abdfa689445baf9f442664a0373154a5d0ca75a33d30f46aeed",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/sit/hak"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/sit/my",
+          "bytes": 56,
+          "sha256": "4b5ae2566cbf30aa59207020469e09832e66a7883818788f253996c534303dca",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/sit/my"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/sit/yue",
+          "bytes": 194,
+          "sha256": "83f3dac92af5b4aaecc119515698a6979524be236b28ea8f1024ec707d99ea5b",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/sit/yue"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/sit/yue-Latn-jyutping",
+          "bytes": 213,
+          "sha256": "c56d45bb9a9cd97efb38edabe31c7dd3feb0518cc900aac6a891dcb6bd8eb428",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/sit/yue-Latn-jyutping"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/tai/shn",
+          "bytes": 92,
+          "sha256": "f16bf2de219d3ae9a6aec263ce9c684d9cd3e61258d04c7948db0757c67e2c96",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/tai/shn"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/tai/th",
+          "bytes": 37,
+          "sha256": "6c8ac809868de659e06673f1fc2b56dbf4637ff9980da7a4726b846478b4cfe6",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/tai/th"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/trk/az",
+          "bytes": 45,
+          "sha256": "52b424332de4c443f3e9c5ce4de5aed6fbfd421269fc825756dfc6bcbd7e1ad8",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/trk/az"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/trk/ba",
+          "bytes": 25,
+          "sha256": "a0cc3a06293962093c66533f9c1cffbccf083a2eb666751f2778a02a5316d98c",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/trk/ba"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/trk/cv",
+          "bytes": 40,
+          "sha256": "94baf6bacf581cc20337471c599f85ecbbe211f0b8476351ff19450c6541ea92",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/trk/cv"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/trk/kk",
+          "bytes": 40,
+          "sha256": "2219f4d6de0fbb1dc9982157c6f3cc5f4c8abe5fcb605908a9d1054b9880cd51",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/trk/kk"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/trk/ky",
+          "bytes": 43,
+          "sha256": "8239dfe8bdc6d4725880f5192b4eaf645f839e40cadfd145a4409c8387ac2d59",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/trk/ky"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/trk/nog",
+          "bytes": 39,
+          "sha256": "e0e27fe61d406b6f4a4879fb8f81a14bc65997106666933991b818c7d79fabc1",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/trk/nog"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/trk/tk",
+          "bytes": 25,
+          "sha256": "d78263398c135119909ad63a3ecb6ffe3aff08383212934dd03695222a9786d0",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/trk/tk"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/trk/tr",
+          "bytes": 25,
+          "sha256": "490eb5a2f777a2f3396f3a824ed8021bd77a94be801214411461bde6689738c9",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/trk/tr"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/trk/tt",
+          "bytes": 23,
+          "sha256": "8b9617a9b6c56f4a2fe2f59d9ce55426837196567962716f9330f70948f8f9b0",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/trk/tt"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/trk/ug",
+          "bytes": 24,
+          "sha256": "65d0cdbc96efab4d9e3cd0095440752a31dc7f425edd3ba0a53c4dd33eac5d63",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/trk/ug"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/trk/uz",
+          "bytes": 39,
+          "sha256": "04fd711dfda1e00d17dc8b1b250c24d70cc3c498b27e35d31065ac47441a6759",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/trk/uz"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/urj/et",
+          "bytes": 237,
+          "sha256": "59c77747c4774e54a63ab74d2c6a95bc3c5b5b0a50d3781f187bd1fc3a613de5",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/urj/et"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/urj/fi",
+          "bytes": 237,
+          "sha256": "61f58ec3bba5b55a392aff7ecf8a84d024200aeaa404b5553fcfb47770936928",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/urj/fi"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/urj/hu",
+          "bytes": 73,
+          "sha256": "c575421d2ae397065d35af0eb4f79dff4e85f3435ccf45da874f46b3fee1338b",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/urj/hu"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/urj/smj",
+          "bytes": 45,
+          "sha256": "3d709dec77bb633af0d57b89668dbaaa72d9be8688118d6909f7d457bec12a50",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/urj/smj"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/zle/be",
+          "bytes": 52,
+          "sha256": "5beb002d15a36bf3d0d764ed0d483c75a1df6909eaa3b10fe5f6546700c9bfec",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/zle/be"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/zle/ru",
+          "bytes": 57,
+          "sha256": "9f52d00a279aaeaa45a786b4fd3a98b34e95fedbf823f8cdb9fecc1339751d3a",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/zle/ru"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/zle/ru-LV",
+          "bytes": 280,
+          "sha256": "980e379667ccb94abe33b9c9c660c08800e3f31e36fe4a939551398ab98457ae",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/zle/ru-LV"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/zle/ru-cl",
+          "bytes": 91,
+          "sha256": "200ea345b505ec9e7b8838490aeaf1822af41033429aeae4ea68159047f59f90",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/zle/ru-cl"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/zle/uk",
+          "bytes": 97,
+          "sha256": "df3d1a9f77bac0531e72f87be398d9eb1e903bd6f839d4f04ffec5abb4e34634",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/zle/uk"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/zls/bg",
+          "bytes": 111,
+          "sha256": "9b91accccb0d53bb2a7bf21922846ba58c74bc082ba71ae32bf12cb0d092f853",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/zls/bg"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/zls/bs",
+          "bytes": 230,
+          "sha256": "0820e7c78b68fbdaf86d83c782cdde1901b642d1cdbeae4181c6f5f5e21e5e89",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/zls/bs"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/zls/hr",
+          "bytes": 262,
+          "sha256": "cef3ef0411c66f154e6c82f7decd95beffa8cbfbe953335658df9f125bdd6096",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/zls/hr"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/zls/mk",
+          "bytes": 28,
+          "sha256": "6dbc2cfb8999141bd0782cd463d4880468161088190c6b4c9412f43552dc39e2",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/zls/mk"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/zls/sl",
+          "bytes": 43,
+          "sha256": "e1c2bd1f75c0eeb86f64182472d5f597ce23e64ad7478c248c2f75b694655942",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/zls/sl"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/zls/sr",
+          "bytes": 250,
+          "sha256": "0e076528d3566f6e59b807e16e274dee505e88a6d477da188ab8ec442eae44f4",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/zls/sr"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/zlw/cs",
+          "bytes": 23,
+          "sha256": "1477cdba5ba3bce85db559accbbd8a24b86b3f6d9d9988bc587e89357c1c4431",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/zlw/cs"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/zlw/pl",
+          "bytes": 38,
+          "sha256": "83c586a2b724b24b9f98d21ade5022112c465ac446ca09930286980ceae1c781",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/zlw/pl"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lang/zlw/sk",
+          "bytes": 24,
+          "sha256": "f46ff673c7d58c1646096c174d58da34047d893d0d2993dbca260ce54abe77ef",
+          "url": "support/models/zipvoice/espeak-ng-data/lang/zlw/sk"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lb_dict",
+          "bytes": 687931,
+          "sha256": "d819a062b9722334f187540d3530fac1de365cd200d4a466f5ecccd7e3c05772",
+          "url": "support/models/zipvoice/espeak-ng-data/lb_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lfn_dict",
+          "bytes": 2793,
+          "sha256": "10281bc404f429165a330b800eb64674e37a135d1b4c689e57fb1d9e827d6924",
+          "url": "support/models/zipvoice/espeak-ng-data/lfn_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lt_dict",
+          "bytes": 49890,
+          "sha256": "68ef55aba9545d27ce73e7d4aca1c2fa51d2c3d3d626152fbc22bf5a90fbff11",
+          "url": "support/models/zipvoice/espeak-ng-data/lt_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/lv_dict",
+          "bytes": 66337,
+          "sha256": "3e246c76b7da924235ffb75925070865e669da2ce3e41e98395e99be1f8db9f7",
+          "url": "support/models/zipvoice/espeak-ng-data/lv_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/mi_dict",
+          "bytes": 1346,
+          "sha256": "401621fdf61da47d0513e80279134a3515ced898aaadd5205b82cced0f2df042",
+          "url": "support/models/zipvoice/espeak-ng-data/mi_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/mk_dict",
+          "bytes": 63859,
+          "sha256": "e4960ff4e74e1096ff1c3bccab62ce0429fa4faa725e546cd5d33e43f45225be",
+          "url": "support/models/zipvoice/espeak-ng-data/mk_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ml_dict",
+          "bytes": 92345,
+          "sha256": "b12687557c38f9bcd17417854253ddde3781e3b0c16f9470d732205818e7cd38",
+          "url": "support/models/zipvoice/espeak-ng-data/ml_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/mr_dict",
+          "bytes": 87391,
+          "sha256": "f712a7525db108ef9769aee53fdd1cd141f0df372778924691b89623aa6fc22f",
+          "url": "support/models/zipvoice/espeak-ng-data/mr_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ms_dict",
+          "bytes": 53541,
+          "sha256": "74b01897385ba1f018de44c0268048fa5be588bbbb702a900bb35c691a466707",
+          "url": "support/models/zipvoice/espeak-ng-data/ms_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/mt_dict",
+          "bytes": 4384,
+          "sha256": "1f76761bdfd481a984b15d07522df23c9444f4ac21ea9671917e08bbffa7f8d3",
+          "url": "support/models/zipvoice/espeak-ng-data/mt_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/mto_dict",
+          "bytes": 3960,
+          "sha256": "6d51cb6be959dba045d41d3d63ff662a7363e1287cce2c633b071295ce55d560",
+          "url": "support/models/zipvoice/espeak-ng-data/mto_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/my_dict",
+          "bytes": 95948,
+          "sha256": "e7f9c2dc672e1388f6941ac6def956b8ab2d622adb00d0ed6640dee4b7acc96b",
+          "url": "support/models/zipvoice/espeak-ng-data/my_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/nci_dict",
+          "bytes": 1534,
+          "sha256": "38c7201e7726c8d508f8f8611349cbc44fcc4684a0fee4db7285d83e808a5b69",
+          "url": "support/models/zipvoice/espeak-ng-data/nci_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ne_dict",
+          "bytes": 95377,
+          "sha256": "43831c3f53ea6e939cac37b5ae5bd7a2ea8237aa46f0e7f2441ab772a3c51dba",
+          "url": "support/models/zipvoice/espeak-ng-data/ne_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/nl_dict",
+          "bytes": 65979,
+          "sha256": "d28641049f98c76b460c3dddde3e2edecb7782c4eb9a3f242391301ff526c83f",
+          "url": "support/models/zipvoice/espeak-ng-data/nl_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/no_dict",
+          "bytes": 4178,
+          "sha256": "43b828f8c1709e7abb23a0cc6416fb32e4814e3f1ff1db4baf2935bf7c77c9ff",
+          "url": "support/models/zipvoice/espeak-ng-data/no_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/nog_dict",
+          "bytes": 3294,
+          "sha256": "8b921398a2f1907b43c07b96a72277d8d3d8545e385955eebae5f340aae33bd2",
+          "url": "support/models/zipvoice/espeak-ng-data/nog_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/om_dict",
+          "bytes": 2302,
+          "sha256": "3624e67ef8d9c20d894db0adccaccc61ee852977cb77d5fe5801e7b4a528fcf5",
+          "url": "support/models/zipvoice/espeak-ng-data/om_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/or_dict",
+          "bytes": 89246,
+          "sha256": "e0dd737e9104da63a27d86cd464cf7764837625b1513169b8d28fca1bd3c8c3b",
+          "url": "support/models/zipvoice/espeak-ng-data/or_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/pa_dict",
+          "bytes": 79953,
+          "sha256": "cee0e2a2bfb166e602ff84e185351a8ac311571ccdf46e1831c7a25245563c10",
+          "url": "support/models/zipvoice/espeak-ng-data/pa_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/pap_dict",
+          "bytes": 2128,
+          "sha256": "770039bbf4ea8c5a3ffddd98c4831ca02c9f39e1ff6b3de7729fa71a8f3bc0f1",
+          "url": "support/models/zipvoice/espeak-ng-data/pap_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/phondata",
+          "bytes": 550424,
+          "sha256": "4e0288957874029a8c3c9f41a8f517ad4bf18127046decbdd4b9d1d6807ce3a3",
+          "url": "support/models/zipvoice/espeak-ng-data/phondata"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/phondata-manifest",
+          "bytes": 21821,
+          "sha256": "7b387af0702c7cf0b61f0bead68feded0bd8e1620729b0b252e76acbc30d3813",
+          "url": "support/models/zipvoice/espeak-ng-data/phondata-manifest"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/phonindex",
+          "bytes": 39074,
+          "sha256": "3ca7b8fa3b42624e4b0f152707e7a39245fce569aa99ea47c055d9e622fcf0c4",
+          "url": "support/models/zipvoice/espeak-ng-data/phonindex"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/phontab",
+          "bytes": 55796,
+          "sha256": "886f3fa402cb0ba73d483aa8ad000af47a6b7cc06293c75a97913fba68a530f6",
+          "url": "support/models/zipvoice/espeak-ng-data/phontab"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/piqd_dict",
+          "bytes": 1710,
+          "sha256": "33004a36210c33291aef8a838d477667eed7af52ff5093152891379b1774188d",
+          "url": "support/models/zipvoice/espeak-ng-data/piqd_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/pl_dict",
+          "bytes": 76730,
+          "sha256": "0e0ce6cfe4eba41a1223362a046390dca359a3e597af8243adaac84d624ef18f",
+          "url": "support/models/zipvoice/espeak-ng-data/pl_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/pt_dict",
+          "bytes": 67817,
+          "sha256": "7e8398f15fa4a21db39a213381f28ec0d302b22663c644e865abb61a09c1b004",
+          "url": "support/models/zipvoice/espeak-ng-data/pt_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/py_dict",
+          "bytes": 2409,
+          "sha256": "2255348879547940e8b49e0ca1b80452748f142cb6e267e49cab0560c720129a",
+          "url": "support/models/zipvoice/espeak-ng-data/py_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/qdb_dict",
+          "bytes": 3028,
+          "sha256": "c9b7f307ffe54f4aaf323290eca1c620572919035b0eb268e5c94f5d7a430058",
+          "url": "support/models/zipvoice/espeak-ng-data/qdb_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/qu_dict",
+          "bytes": 1919,
+          "sha256": "d50659c2a14f43e01fdef0b668eb083025a00cac481b49dfb068e0220e0ed945",
+          "url": "support/models/zipvoice/espeak-ng-data/qu_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/quc_dict",
+          "bytes": 1450,
+          "sha256": "458c1ca6dcfa288ea2584915d206c5127512501174d82655de2cf031378e6dfd",
+          "url": "support/models/zipvoice/espeak-ng-data/quc_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/qya_dict",
+          "bytes": 1939,
+          "sha256": "e56ae297ebac26ed6c77a9718812e087f0bd198241dac3c0d964f36510984783",
+          "url": "support/models/zipvoice/espeak-ng-data/qya_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ro_dict",
+          "bytes": 68538,
+          "sha256": "b14f68866b0440c4b0d95fb7da3b7ffd3c59b693e8593d188474fabfc9a1117d",
+          "url": "support/models/zipvoice/espeak-ng-data/ro_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ru_dict",
+          "bytes": 8532392,
+          "sha256": "f0f6181bbbf9e53cd1e8f9d26bde8fc62119c4f78181948f961cb29866e5e585",
+          "url": "support/models/zipvoice/espeak-ng-data/ru_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/sd_dict",
+          "bytes": 59928,
+          "sha256": "398c876b52213a6e7dd54c68d0560d2a1c164c6bfb23b9ec1c044266cdcf2217",
+          "url": "support/models/zipvoice/espeak-ng-data/sd_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/shn_dict",
+          "bytes": 88172,
+          "sha256": "121b6682a9b49700232b3a05cc2289d8d4b9c1027e6c2db5c3f552804ad3d04a",
+          "url": "support/models/zipvoice/espeak-ng-data/shn_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/si_dict",
+          "bytes": 85384,
+          "sha256": "a241437d4b64fd328ac4a3e786c9465c60488f6fa31cbba04153f628cdc61f27",
+          "url": "support/models/zipvoice/espeak-ng-data/si_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/sjn_dict",
+          "bytes": 1783,
+          "sha256": "eb70510144230f6791574d86bae0918b4191b076dd66c555e6ae3d5637daadf7",
+          "url": "support/models/zipvoice/espeak-ng-data/sjn_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/sk_dict",
+          "bytes": 50002,
+          "sha256": "58b9bc11c9a95d81e96966242367009f8d02ab7a3f8f4fd77e3581ed4159f0a8",
+          "url": "support/models/zipvoice/espeak-ng-data/sk_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/sl_dict",
+          "bytes": 45047,
+          "sha256": "9cb2bcbf616a5e7dd7ca769e7d222a48c613299ef1d76e44c08b002f8c22861a",
+          "url": "support/models/zipvoice/espeak-ng-data/sl_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/smj_dict",
+          "bytes": 35095,
+          "sha256": "815270ce38a59c192ef5aa8801119d9b3ed973d9e23dfa6da8d5d27ded5a9cd6",
+          "url": "support/models/zipvoice/espeak-ng-data/smj_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/sq_dict",
+          "bytes": 45003,
+          "sha256": "6b74bef94c3319407c27e44d944e765d036a88b30b4c17f30bbc182dbffcc4ce",
+          "url": "support/models/zipvoice/espeak-ng-data/sq_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/sr_dict",
+          "bytes": 46832,
+          "sha256": "770cae9c516e48af7896629faf4abefaf041e1fd4ae184011aad07b97196f613",
+          "url": "support/models/zipvoice/espeak-ng-data/sr_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/sv_dict",
+          "bytes": 47836,
+          "sha256": "565f058b14f1c89c6bfa44fc3700793886a39c7818f1037ad1f4961fa7517509",
+          "url": "support/models/zipvoice/espeak-ng-data/sv_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/sw_dict",
+          "bytes": 47804,
+          "sha256": "375fab2ccd0d669177ad406b20b0cdb5851a1e86f093672f24f72c29fec8a815",
+          "url": "support/models/zipvoice/espeak-ng-data/sw_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ta_dict",
+          "bytes": 209553,
+          "sha256": "8f3d855c8d7a35ad0e2b22bc7c15a8830e5fc235492894e5db40458655076ecd",
+          "url": "support/models/zipvoice/espeak-ng-data/ta_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/te_dict",
+          "bytes": 94837,
+          "sha256": "640407c66a5bb975671243325de616c221f90bb2842d3a36278facb68c0772f8",
+          "url": "support/models/zipvoice/espeak-ng-data/te_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/th_dict",
+          "bytes": 2301,
+          "sha256": "dd5d3e6268a381920f21c769f52daf3a8e610ae83f7995e56f15e9d4de18d653",
+          "url": "support/models/zipvoice/espeak-ng-data/th_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/tk_dict",
+          "bytes": 20868,
+          "sha256": "b3cd4a246f014f0564ec9efae79731c0fe73ffe1cd1617359dd8d5344ee3f9c8",
+          "url": "support/models/zipvoice/espeak-ng-data/tk_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/tn_dict",
+          "bytes": 3072,
+          "sha256": "67f68dc336e7c65b946c95414cc8ae96cd10d241783bf857b3f990ac73221b2b",
+          "url": "support/models/zipvoice/espeak-ng-data/tn_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/tr_dict",
+          "bytes": 46793,
+          "sha256": "311b0557059f2dab5ee2faabb51361f5033368f0e2a54c4bdfe45e730674f26e",
+          "url": "support/models/zipvoice/espeak-ng-data/tr_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/tt_dict",
+          "bytes": 2121,
+          "sha256": "60d138d38330e44a78b4224cbea452bfca22bce6734c8ce3f640c0216ce14001",
+          "url": "support/models/zipvoice/espeak-ng-data/tt_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ug_dict",
+          "bytes": 2070,
+          "sha256": "7c4567ffe6bd8d5224b6b3fd8fab65b1343254636e6228d738ae3a708428e8e7",
+          "url": "support/models/zipvoice/espeak-ng-data/ug_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/uk_dict",
+          "bytes": 3492,
+          "sha256": "a779bb0f51ce5cebb650a4e2282162fc8c44609210a2baa700f81f3e83e6e10c",
+          "url": "support/models/zipvoice/espeak-ng-data/uk_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/ur_dict",
+          "bytes": 133556,
+          "sha256": "74b60e4331f532810ccfc70751ad07ab440647550a2d25823f44663a0dfa86fb",
+          "url": "support/models/zipvoice/espeak-ng-data/ur_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/uz_dict",
+          "bytes": 2540,
+          "sha256": "790d42ac417b26dd7b1bbfed4be72329c16ed1839dd75f55f7c962eb7bd5857a",
+          "url": "support/models/zipvoice/espeak-ng-data/uz_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/vi_dict",
+          "bytes": 52608,
+          "sha256": "bbf7cab4ba733b2f5d9d3b61eb1194ef745232fa3adebb4bc92456e948cb3722",
+          "url": "support/models/zipvoice/espeak-ng-data/vi_dict"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Alex",
+          "bytes": 128,
+          "sha256": "1cf9874567f4fa8109329f084e9ad9ed788fb2362298921d0a04a57b24f1141f",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Alex"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Alicia",
+          "bytes": 474,
+          "sha256": "6d3f60ec866706e9d4ab7da2a79eedb8c11b50f63620f87e58317f316ea3d58e",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Alicia"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Andrea",
+          "bytes": 357,
+          "sha256": "6ca52734ec2cf7c419d2d3ad7c3449cd1a1776342c4d152ea12c5b1e72801e89",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Andrea"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Andy",
+          "bytes": 320,
+          "sha256": "0e13ba1a940cd9df7e65358c36445c9740f3d75f1360c7f7c71ab9f74b45edca",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Andy"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Annie",
+          "bytes": 315,
+          "sha256": "40f0f829c5c6e7abf4a02a21f128a572756d6f6693014c26d09a5c29ede5ec33",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Annie"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/AnxiousAndy",
+          "bytes": 361,
+          "sha256": "7dfe126f517b76cc78269618dbee2c30d324bea9460b400938756ec93995eaf8",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/AnxiousAndy"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Demonic",
+          "bytes": 3858,
+          "sha256": "241b0e78362bd3208bb586b65bdf52330e1e8322f8f226c4790c4abeb47cfb09",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Demonic"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Denis",
+          "bytes": 305,
+          "sha256": "a09fe9f7a4e478d2ba1e139c2995633e2b99de9abdaaa82307954599b0e3d6fd",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Denis"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Diogo",
+          "bytes": 379,
+          "sha256": "a4a17c453d13242b48783c247816bff8d2cf7bc8931c3f8237887d88a2881b18",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Diogo"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Gene",
+          "bytes": 281,
+          "sha256": "06258dae680cde2122a4939dbd4f23ed4ea145b7475068bf7dd4d466090afd2a",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Gene"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Gene2",
+          "bytes": 283,
+          "sha256": "bcdb3039296eea37398e4423dc9bb6849cda9c5c812b83702ebc49682c649f57",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Gene2"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Henrique",
+          "bytes": 381,
+          "sha256": "5c6bf1cf5b6bc7c7d48f2a8368ae348c6ff64232c047f40f9d9a6e6824b4ce6a",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Henrique"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Hugo",
+          "bytes": 378,
+          "sha256": "906acbef890dc4da67cb54b5b0ddc2cab7ee308a95d350c899f0b0cb6a83dd5f",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Hugo"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Jacky",
+          "bytes": 267,
+          "sha256": "41884ed9b66160aeb5a0dc418370a59fe39ead0013d93e023e6d607ef01c1a6e",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Jacky"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Lee",
+          "bytes": 338,
+          "sha256": "a1584887cddb40c10e04992fb770025b52e66b70504656094f80975f1d6bbf6b",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Lee"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Marco",
+          "bytes": 467,
+          "sha256": "04025677360c0270f094bbb6716b83c8284902f6da9b496bedbbf590963835fb",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Marco"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Mario",
+          "bytes": 270,
+          "sha256": "a94ac65d132030df496e8aa364d5cde5f2eafa4b6b3ae361a2901d512c6029d8",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Mario"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Michael",
+          "bytes": 270,
+          "sha256": "4409be23ef5fedf4c8bffbfaa8a802a342824d7e97f1d92938336a25f92f0ebe",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Michael"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Mike",
+          "bytes": 112,
+          "sha256": "8999b264606c0af23d346a877e10ca05aa757f7ea433e6cfcb3bef50a56ba2cf",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Mike"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Mr serious",
+          "bytes": 3193,
+          "sha256": "794abd78deb07ce9b03419d20f7744df4c0151d5abff7981217e9d0926a2f240",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Mr serious"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Nguyen",
+          "bytes": 280,
+          "sha256": "4f3d557d9c045080f56022a96e5b3659c4d1caa5fa1d702e12d3ef6bec2e3a45",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Nguyen"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Reed",
+          "bytes": 202,
+          "sha256": "727dbc3f6bff0be4dd7d0438f66d3bb82cff68ed148cf52cb58e73314aaec1e4",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Reed"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/RicishayMax",
+          "bytes": 233,
+          "sha256": "7ddc7a57711ccd7a736540f14271adadf1e2e0422941ecaa7cc43ab87f8e2017",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/RicishayMax"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/RicishayMax2",
+          "bytes": 435,
+          "sha256": "3de5e414d4b2ef082a7b974bb7ede94937e93b5b873d2b2f7928b19d30745180",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/RicishayMax2"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/RicishayMax3",
+          "bytes": 435,
+          "sha256": "36d20550b68a8c229d34d956657b7d642929962f7e5d4fddd6396af9e5378b56",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/RicishayMax3"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Storm",
+          "bytes": 420,
+          "sha256": "e817c7d1ce10de527ebc19c0835f580cb584c3ae7d36d30a4f414482602e7b89",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Storm"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/Tweaky",
+          "bytes": 3189,
+          "sha256": "c34d1c1d8b7922ceb886b95ad6ab534ca048f9c47e19698ec2aae5cf0c32cdbc",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/Tweaky"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/UniRobot",
+          "bytes": 417,
+          "sha256": "23dba52c2d1cb332db6225304818d85488f110a668ddcdbfd7f0438afe37794b",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/UniRobot"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/adam",
+          "bytes": 75,
+          "sha256": "b21efbf56fd7d58470e7ce4759c6ef9f23949706b269f2d777832204658ee0dd",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/adam"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/anika",
+          "bytes": 493,
+          "sha256": "228771ce84cad16a089e0b23efe2e69edf25f1ab7c0cb3a50d366ac70e82fbbd",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/anika"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/anikaRobot",
+          "bytes": 512,
+          "sha256": "3ba724be6aab2fc1a084b25cdb16f469250eb9de4c6c0924a18788d0246fc32f",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/anikaRobot"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/announcer",
+          "bytes": 300,
+          "sha256": "4af6a6748c720cbbaac1e3dcac17bb3bc7a4c553499ec7ee69e054db51a50de3",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/announcer"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/antonio",
+          "bytes": 381,
+          "sha256": "c90477080cd9aa9c384770c0ec18901d01e9851f1bc7d15526a2565a3b0c4da5",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/antonio"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/aunty",
+          "bytes": 358,
+          "sha256": "0aede4d1ca614f32c348f3d728eab58322ccd016e8531234fdc3dfcf00e32bf1",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/aunty"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/belinda",
+          "bytes": 340,
+          "sha256": "9bd791b7115820e25ada82b4911134d5116e8238b4fd4d214dfccf162576141c",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/belinda"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/benjamin",
+          "bytes": 201,
+          "sha256": "3fa10b0d865fc751fd9c8ed1dabac4bb9b011ea2b95064d4d25a8c719f7785d8",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/benjamin"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/boris",
+          "bytes": 224,
+          "sha256": "f23d0a6ee2eeb7e3340506d61d422b691fb04f4e98977ea15c1e0ee5715846d5",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/boris"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/caleb",
+          "bytes": 57,
+          "sha256": "bcde145ec713eae6d3451a6f25dbbdc0b6756fd44e9e092b7aef89f2cff25be8",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/caleb"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/croak",
+          "bytes": 93,
+          "sha256": "2906a2c6f7b7687db2f1c862164a9b80435d5afc3ba16d74619728bf8c3a8ca7",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/croak"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/david",
+          "bytes": 112,
+          "sha256": "50b5cb5f61a50f5ff5299dd22e5d645446746dbc36909595f6ae47bac0bda9c3",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/david"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/ed",
+          "bytes": 287,
+          "sha256": "12ddb6355b40a2e39a3b6cef66a2bf4db15a25045769b330a9a3b344a608026d",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/ed"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/edward",
+          "bytes": 151,
+          "sha256": "b7a12bcb2af280c40e4be4280b675001024619ed529262dbf3e819db53b5b310",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/edward"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/edward2",
+          "bytes": 152,
+          "sha256": "59d166f7adfee4515a492993405e95432889050aaa47b6cd7eaeeb457fbca227",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/edward2"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/f1",
+          "bytes": 324,
+          "sha256": "7cdef453c6b0391d50a02b8f35392e6f41249cea65df1021affd68a64917b85f",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/f1"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/f2",
+          "bytes": 357,
+          "sha256": "62b17f6c8f94add0310db032f5e463c13510c5ff83ef1f21e8894ccbf00b00e3",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/f2"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/f3",
+          "bytes": 375,
+          "sha256": "d0342ee8ceebe3047831774634d234e90281ec73ce2aed8dd0bdd915ccf500fc",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/f3"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/f4",
+          "bytes": 350,
+          "sha256": "ff9e2907a818920e3b976232c90eabaf270fff0de0b8a479af9a3633e9b7921f",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/f4"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/f5",
+          "bytes": 432,
+          "sha256": "6c76406d94540d59dee16de11520c37124a1f6dfc236981e483877075f0271b3",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/f5"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/fast",
+          "bytes": 149,
+          "sha256": "fa2f9c2918f351499037f6bffb25294d9b781b2785d9772a8ae3293c0c0037fe",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/fast"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/grandma",
+          "bytes": 263,
+          "sha256": "e033d57ba9b098971fdb995c13830f9c709206add081c586daaec323ff69a392",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/grandma"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/grandpa",
+          "bytes": 256,
+          "sha256": "f25627887b95e8bccac5e6ce99cb97c6e34290ff0bf919febe64a9987138796d",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/grandpa"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/gustave",
+          "bytes": 253,
+          "sha256": "5fa89cf8625cd460b9309748eca019ab5b325a04dccbd29f1a9b2a00caa2e848",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/gustave"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/ian",
+          "bytes": 3168,
+          "sha256": "c0722c7954d3e6582e3f5b3f584140675ab060ac3c6cac5dd11a74592db5550a",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/ian"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/iven",
+          "bytes": 261,
+          "sha256": "10ab9de8365ff7bf5a20621d08f1a2019d4bf5521f3c6f65447c9256057406c8",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/iven"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/iven2",
+          "bytes": 279,
+          "sha256": "f94830e5abe118dc4c0909630d66637ba2a7c94957279c31fd78e313374054cd",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/iven2"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/iven3",
+          "bytes": 262,
+          "sha256": "27ccf2d2f7bb8f1ff28c705c39cf6ff575eb2458c39a518ed33741ad9c1af252",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/iven3"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/iven4",
+          "bytes": 261,
+          "sha256": "11b3d46c01d4307eedcb60bd8dbcc73a40f3eb86c289176d6fd5bb418223b92f",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/iven4"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/john",
+          "bytes": 3186,
+          "sha256": "bfbcc1cec33ef0581fdeb4955fbcd0d824a5d4be5493d731e4a2ef7f8f3ba670",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/john"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/kaukovalta",
+          "bytes": 361,
+          "sha256": "b9f6016145835c3999bcd5872b8a53442729bd903591781ea3340746b3b4956b",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/kaukovalta"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/klatt",
+          "bytes": 38,
+          "sha256": "9abb6d05d0ca354831c570e14323dd4e821459b53166d96395875a48bacdbde2",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/klatt"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/klatt2",
+          "bytes": 38,
+          "sha256": "afab662a55953532ff8d6f9c615b824ecec87f7aef6790a58c4ccbc4505a742a",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/klatt2"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/klatt3",
+          "bytes": 39,
+          "sha256": "f1c0cd147bd656f6c4830b3341c9694483438c43aea15c982dcc1945dbb334b9",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/klatt3"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/klatt4",
+          "bytes": 39,
+          "sha256": "3459c15aa8fa7d7218ac34388dfc0833c850ffc923013949308c2f643f3daad2",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/klatt4"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/klatt5",
+          "bytes": 39,
+          "sha256": "44397d8282454a2974078d25509caa470bceb093e484e727843a5147b4193e60",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/klatt5"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/klatt6",
+          "bytes": 39,
+          "sha256": "7d3930cd97ef7a0732f2e19f53f84e480f2d441d263390647b92bb0b4c645d05",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/klatt6"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/linda",
+          "bytes": 350,
+          "sha256": "df06b4c29f5953034e7815ea7062e356917266f8fab576f76c036045525c8e28",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/linda"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/m1",
+          "bytes": 335,
+          "sha256": "7f2de023bdfe18651d2d0453d2e7ff5e8ade9f094912a79247336ddc90fd7783",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/m1"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/m2",
+          "bytes": 264,
+          "sha256": "6eb925eb6691621a6de66c87596c6ed879c80a04215a9a8437dffc28fcfa14dd",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/m2"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/m3",
+          "bytes": 300,
+          "sha256": "7a4ac872387439814ddd65f5e1ff73017122975911df6b5dc62c5709e6fdb611",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/m3"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/m4",
+          "bytes": 290,
+          "sha256": "6bef82cea3538da1246b7a2c203206e90155cbb4af86faa8ef03366c3119ceee",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/m4"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/m5",
+          "bytes": 262,
+          "sha256": "08590ef7ce37630a6875d9cbe200dc473a9054b4184287808a4fd1c8e27dd02a",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/m5"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/m6",
+          "bytes": 188,
+          "sha256": "fc0e01af458a96d43f55878010d3abcbbda85e846922b25361a78d27c3a9ca00",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/m6"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/m7",
+          "bytes": 254,
+          "sha256": "bdfc54a3558ca98f9ca082479c5211034a824d8721db91804f9d77867db6fab3",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/m7"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/m8",
+          "bytes": 284,
+          "sha256": "060130540e2fae5f8acfb19bcd4ef3dc5dc8f8d2134c502bb57af277fd4cc491",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/m8"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/marcelo",
+          "bytes": 251,
+          "sha256": "3238a933a17c40c61cdd385c0e742bf54c42c008f4110d4b0353a6ae72a5d1a0",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/marcelo"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/max",
+          "bytes": 225,
+          "sha256": "c88f70a60a19e76a6774dfbd7664be639b9aa8aa587c680834c305ffa434aaaf",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/max"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/michel",
+          "bytes": 404,
+          "sha256": "c0068ad9cb792dfb78aedbdff9c3cec68e5083736bae0c33bf19088186101087",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/michel"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/miguel",
+          "bytes": 382,
+          "sha256": "9c8c2bbe9fba6d1f06eb63ee67d98d7ebb8846b2bf13847a9b359c90ba9fa8fe",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/miguel"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/mike2",
+          "bytes": 188,
+          "sha256": "274ebc5df252b3258e8996f1276137b2cf9d6e5006e1145a5172997284f1dba0",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/mike2"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/norbert",
+          "bytes": 3189,
+          "sha256": "35b9923e15caf36280542270282bd2392c6d86ef5db9a8be7be92ce2241a46cb",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/norbert"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/pablo",
+          "bytes": 3142,
+          "sha256": "053a85c8a6d7e7a0f6432a3158fe73fa9accf06202e5d69c273d4e5bae8bafc8",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/pablo"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/paul",
+          "bytes": 284,
+          "sha256": "75fb8098bea28859513de6ce033092307382d6f20455e71b051193dfc0793d5e",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/paul"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/pedro",
+          "bytes": 352,
+          "sha256": "7429792ba833fa2446bec6db790068f5862b9ed099392002cd0e724ec6ab2a66",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/pedro"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/quincy",
+          "bytes": 354,
+          "sha256": "e9945bee7b4f3240221866f497bf2511a886ed7702d8389688a03c2ea120caf0",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/quincy"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/rob",
+          "bytes": 265,
+          "sha256": "fbfffcdb0afb2e3b70f886c02282feae22509d77fe6e7103daf907f7a356595d",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/rob"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/robert",
+          "bytes": 274,
+          "sha256": "72604f85afe5bb52a5ce7e3427b196e1e3e426a14a64e2d93b6617e248a46417",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/robert"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/robosoft",
+          "bytes": 451,
+          "sha256": "ce2820edd349f3fbc734bfe94095518f10ecbefdb304560109f37106f9f4d2fa",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/robosoft"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/robosoft2",
+          "bytes": 454,
+          "sha256": "249a44f4069b323640e6b532ff6a9bc30dca35f5f9a5f666b647937cbc58c685",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/robosoft2"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/robosoft3",
+          "bytes": 455,
+          "sha256": "f8543efe18019c735ebad99d1cab4e06e0efd565ac269a895415dfebf342c383",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/robosoft3"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/robosoft4",
+          "bytes": 447,
+          "sha256": "d5f728e0d0a9d27f604f34e835e059590fd01411fd467c91328b573c7597bb2d",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/robosoft4"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/robosoft5",
+          "bytes": 445,
+          "sha256": "39da0efe1768e14eefe05a7019fab416795bbffb222fce23ad7f963991447f7b",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/robosoft5"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/robosoft6",
+          "bytes": 287,
+          "sha256": "46426971d76c34266580133fad2c26ab829395a71c1713e6205d9d46b0871672",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/robosoft6"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/robosoft7",
+          "bytes": 410,
+          "sha256": "e19c1045259d9cfb078c229d5d1372f7c5af971d0e2536a41b89c40ca3e23ede",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/robosoft7"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/robosoft8",
+          "bytes": 243,
+          "sha256": "389230461647836c1b66c51939c0a493e3fbc81e2b7afc01c6f88b8f9da21e2b",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/robosoft8"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/sandro",
+          "bytes": 530,
+          "sha256": "1b8c36a3ce35a27cbbabf4679df0264cd37f4c79b66aa1f4c310eb31b9c80490",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/sandro"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/shelby",
+          "bytes": 280,
+          "sha256": "5e96565045bcdd5b42e7ad0eab2bbd670c67cf5c9e3f2ac6b50b30580fb92be4",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/shelby"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/steph",
+          "bytes": 364,
+          "sha256": "78186aeddce4c449348f368046b2665375b1a492e948d739249b0c964f082861",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/steph"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/steph2",
+          "bytes": 367,
+          "sha256": "ca88414b48553fed1fd409389548a94ea90cf282d6340e3cb968c8538a2ac2ec",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/steph2"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/steph3",
+          "bytes": 377,
+          "sha256": "a7d796211b6969ba92213f89de54b053890306af774424ee38fb02ace45e852d",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/steph3"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/travis",
+          "bytes": 383,
+          "sha256": "7d5a34be05778ee850d97b0491a62db7683c058d660ff2afc71c08c87360f30d",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/travis"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/victor",
+          "bytes": 253,
+          "sha256": "a880a8083ac5eaadf94f71c63b51f34c1426d4bfe0a26f6761ddec5c6e9a5c76",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/victor"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/whisper",
+          "bytes": 186,
+          "sha256": "1e3534c843768898cea47a3f83b2fd91720c0775b438ea5c0134676940a66e96",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/whisper"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/whisperf",
+          "bytes": 392,
+          "sha256": "7fea42b10114f1bfd2004181e6b0eb626997cca987893e23d24b5c616aac89d7",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/whisperf"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/voices/!v/zac",
+          "bytes": 275,
+          "sha256": "edaf508b2cfbfd6088a163dcc78d5f6a26850a7d39a5a0e5128b09526f56b6db",
+          "url": "support/models/zipvoice/espeak-ng-data/voices/!v/zac"
+        },
+        {
+          "path": "models/zipvoice/espeak-ng-data/yue_dict",
+          "bytes": 563571,
+          "sha256": "1d26afa203034698772107abfff1b53acbee30434700a4d2b75dee98951588f8",
+          "url": "support/models/zipvoice/espeak-ng-data/yue_dict"
+        },
+        {
+          "path": "models/zipvoice/files.json",
+          "bytes": 11047,
+          "sha256": "f6e534983c8f000cebe1542043344acd141f6df763d72f3fcf7a2b1a6cc2a1a1",
+          "url": "support/models/zipvoice/files.json"
+        },
+        {
+          "path": "models/zipvoice/lexicon.txt",
+          "bytes": 1727147,
+          "sha256": "c94b049d970e971acdc2a7e5e7b23ca594222a9d640e417c711f2ad1e7bb7d46",
+          "url": "support/models/zipvoice/lexicon.txt"
+        },
+        {
+          "path": "models/zipvoice/test_wavs/leijun-1.wav",
+          "bytes": 291028,
+          "sha256": "72e25f11b3fffc402cc9021736e49e7aa7ae97b1edbf514ae1a3ce994013c10d",
+          "url": "support/models/zipvoice/test_wavs/leijun-1.wav"
+        },
+        {
+          "path": "models/zipvoice/test_wavs/news-female-2.wav",
+          "bytes": 424352,
+          "sha256": "3a8c107a0b0d73aea875e42d27248583e1d1bd04c12339ecedf0eff655a2c4e7",
+          "url": "support/models/zipvoice/test_wavs/news-female-2.wav"
+        },
+        {
+          "path": "models/zipvoice/test_wavs/news-female.wav",
+          "bytes": 328342,
+          "sha256": "bb712833cd31d8df805cd29eee112a7db70dbf08ab51e4e2ec7b8106752d97ec",
+          "url": "support/models/zipvoice/test_wavs/news-female.wav"
+        },
+        {
+          "path": "models/zipvoice/test_wavs/prompt.txt",
+          "bytes": 314,
+          "sha256": "690caa94513502be6fb0068099aea95478daa6f7af6b6cd6085a7b372adfb015",
+          "url": "support/models/zipvoice/test_wavs/prompt.txt"
+        },
+        {
+          "path": "models/zipvoice/tokens.txt",
+          "bytes": 2570,
+          "sha256": "ce98c1afc5f7a20c2484dffdd68a1fff0a4a2cc707328833750c4476c37cdbda",
+          "url": "support/models/zipvoice/tokens.txt"
+        },
+        {
+          "path": "models/zipvoice/vocos_24khz.onnx",
+          "bytes": 54157409,
+          "sha256": "bcb3b970e384161c4d634f0bb9e999ff1c471b34c9bc0b1049a5014065ed3cc0",
+          "parts": [
+            {
+              "url": "packs/zipvoice/vocos_24khz.onnx.part-00",
+              "bytes": 50331648
+            },
+            {
+              "url": "packs/zipvoice/vocos_24khz.onnx.part-01",
+              "bytes": 3825761
+            }
+          ]
+        }
+      ],
+      "bytes": 205161171
+    },
+    "qwen": {
+      "files": [
+        {
+          "path": "models/qwen/config.json",
+          "bytes": 4908,
+          "sha256": "81aca2b6fac304944d8acf345272d8a9a727d5fc2e2e66b222ab4729340c7455",
+          "url": "support/models/qwen/config.json"
+        },
+        {
+          "path": "models/qwen/tokenizer.json",
+          "bytes": 5211791,
+          "sha256": "e8ecffc3f26a92ff1959b4e17dcbab1e8ff5d8e6307d8e60655e7e75345d7a46",
+          "url": "support/models/qwen/tokenizer.json"
+        },
+        {
+          "path": "models/qwen/tokenizer_config.json",
+          "bytes": 7344,
+          "sha256": "dc3c31c3bdaedd5016382bb3cbe07323026775ad51f5a4fb564505992ae4a670",
+          "url": "support/models/qwen/tokenizer_config.json"
+        },
+        {
+          "path": "models/qwen/text_embed.onnx",
+          "bytes": 203384915,
+          "sha256": "b2923edfce01344dea9bd719e2daf94bda0b45bfd05a307514e9dd5f793dcd09",
+          "url": "https://huggingface.co/onnx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/18b0bf898d211718bc33082fadc36a448e0cbc0c/cpu_int4/text_embed.onnx"
+        },
+        {
+          "path": "models/qwen/codec_embed.onnx",
+          "bytes": 2015779,
+          "sha256": "bd76cd6b77907c76b6d0055ea6cf7572468ab99dc3451c1176ea2189d1a55f70",
+          "url": "https://huggingface.co/onnx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/18b0bf898d211718bc33082fadc36a448e0cbc0c/cpu_int4/codec_embed.onnx"
+        },
+        {
+          "path": "models/qwen/talker_cache.onnx",
+          "bytes": 288573853,
+          "sha256": "910e1d556cd74f11bbb55fff9d509a962bfc43f23608b62fb0a8215c7acc882f",
+          "url": "https://huggingface.co/onnx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/18b0bf898d211718bc33082fadc36a448e0cbc0c/cpu_int4/talker_cache.onnx"
+        },
+        {
+          "path": "models/qwen/code_predictor.onnx",
+          "bytes": 91668866,
+          "sha256": "f0b3a431b90a56d2784599948bcff678d5188e38481d3a991d80c550d0d0bfa2",
+          "url": "https://huggingface.co/onnx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/18b0bf898d211718bc33082fadc36a448e0cbc0c/cpu_int4/code_predictor.onnx"
+        },
+        {
+          "path": "models/qwen/residual_embed.onnx",
+          "bytes": 22179258,
+          "sha256": "eec76513b562f558e76eeeb9b0bfa982de512104cddac372ec368ab504b080a0",
+          "url": "https://huggingface.co/onnx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/18b0bf898d211718bc33082fadc36a448e0cbc0c/cpu_int4/residual_embed.onnx"
+        },
+        {
+          "path": "models/qwen/tok_decoder.onnx",
+          "bytes": 458268831,
+          "sha256": "8ec10051735029f6e08b04834128c9108428885c39384f443e49a6790ccb129f",
+          "url": "https://huggingface.co/onnx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/18b0bf898d211718bc33082fadc36a448e0cbc0c/cpu_int4/tok_decoder.onnx"
+        }
+      ],
+      "bytes": 1071315545
+    },
+    "omnivoice": {
+      "files": [
+        {
+          "path": "models/omnivoice/omnivoice_lm.onnx",
+          "bytes": 1486665,
+          "sha256": "e2e47ad91c2057da261cd5e23528d90ab8b4bd554b66cfa1d061900b676733fa",
+          "url": "https://huggingface.co/KitsuMate/omnivoice-onnx/resolve/a8719e37c2ec34a090d04e36033084f2d1cd6837/onnx/omnivoice_int4.onnx"
+        },
+        {
+          "path": "models/omnivoice/omnivoice_int4.onnx.data",
+          "bytes": 893509888,
+          "sha256": "ab68fe141840a36016338a144576fd25fffc2b260e02aad7213e320e26ec3f29",
+          "url": "https://huggingface.co/KitsuMate/omnivoice-onnx/resolve/a8719e37c2ec34a090d04e36033084f2d1cd6837/onnx/omnivoice_int4.onnx.data"
+        },
+        {
+          "path": "models/omnivoice/audio_decoder.onnx",
+          "bytes": 86500102,
+          "sha256": "b28b3317a6cbf0d0f4a71b476ecb5c767612a31702da6561154783c94b6fa806",
+          "url": "https://huggingface.co/KitsuMate/omnivoice-onnx/resolve/a8719e37c2ec34a090d04e36033084f2d1cd6837/onnx/higgs_decoder.onnx"
+        },
+        {
+          "path": "models/omnivoice/tokenizer.json",
+          "bytes": 11423986,
+          "sha256": "408f669b7e2b045fdf54201d815bd364e6667dbd845115da81239c40bc6dcfd1",
+          "url": "https://huggingface.co/KitsuMate/omnivoice-onnx/resolve/a8719e37c2ec34a090d04e36033084f2d1cd6837/tokenizer.json"
+        },
+        {
+          "path": "models/omnivoice/tokenizer_config.json",
+          "bytes": 533,
+          "sha256": "49f78845596a82bf15c83673794bdf9f76f812b11f60ab6a2239d9be65b00676",
+          "url": "https://huggingface.co/KitsuMate/omnivoice-onnx/resolve/a8719e37c2ec34a090d04e36033084f2d1cd6837/tokenizer_config.json"
+        },
+        {
+          "path": "models/omnivoice/manifest.json",
+          "bytes": 67,
+          "sha256": "ebf2e9d10c13ef832e27c393f59b8480bcd28a4c3f3b72eb7fbc9074a9eacf69",
+          "url": "support/models/omnivoice/manifest.json"
+        }
+      ],
+      "bytes": 992921241
+    }
+  },
+  "sources": {
+    "kokoro": [
+      "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "1939ad2a8e416c0acfeecc08a694d14ef25f2231"
+    ],
+    "kitten-nano": [
+      "KittenML/kitten-tts-nano-0.8-int8",
+      "84781d74e29ee25217551556398b42f80593a813"
+    ],
+    "kitten-micro": [
+      "KittenML/kitten-tts-micro-0.8",
+      "1ccf72b2c2048fd17efac7de2fab32d10e225084"
+    ],
+    "kitten-mini": [
+      "KittenML/kitten-tts-mini-0.8",
+      "c02725660cea441db4c383af69f1f26f5cd00947"
+    ],
+    "piper": [
+      "rhasspy/piper-voices",
+      "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd"
+    ],
+    "supertonic": [
+      "supertone-oss-archive/supertonic-3",
+      "aafc6e32416a594460b32413efc49d7fe4ce6d46"
+    ],
+    "phonon": [
+      "gradium/phonon-31m-en",
+      "92741c5b07d085ff840e26fea8ce43110b87852f"
+    ],
+    "pocket": [
+      "kyutai/pocket-tts-without-voice-cloning",
+      "a7056f505a4a8ca72d8b5fb1440071d6f1a35739"
+    ],
+    "qwen": [
+      "onnx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "18b0bf898d211718bc33082fadc36a448e0cbc0c"
+    ],
+    "matcha": [
+      "csukuangfj/matcha-icefall-zh-baker",
+      "4ddc32d1724e5ea167116096b860de07b8dcb781"
+    ],
+    "omnivoice": [
+      "KitsuMate/omnivoice-onnx",
+      "a8719e37c2ec34a090d04e36033084f2d1cd6837"
+    ]
+  }
+}

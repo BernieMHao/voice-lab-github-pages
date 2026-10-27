@@ -1,0 +1,21 @@
+{
+  "reports": [
+    {
+      "id": "omnivoice",
+      "wallMs": 86874,
+      "rms": 0.15427837718381843,
+      "wavBytes": 90284,
+      "sampleRate": 24000,
+      "metrics": [
+        "65.96 s",
+        "1.88 s",
+        "35.08",
+        "整段輸出"
+      ]
+    }
+  ],
+  "postRequests": [],
+  "transport": "sha256-verified-local-static-mirror",
+  "gpuDisabled": true,
+  "scope": "/voice-lab/"
+}

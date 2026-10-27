@@ -1,0 +1,51 @@
+name: Upload manifest.json to HuggingFace
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install huggingface_hub
+        run: pip install huggingface_hub
+
+      - name: Upload manifest
+        run: |
+          python - <<'EOF'
+          from huggingface_hub import HfApi
+          import os, json
+
+          api = HfApi(token=os.environ["HF_TOKEN"])
+          repo_id = "lanmower/OmniVoice-ONNX"
+
+          files = api.list_repo_files(repo_id=repo_id, repo_type="model")
+          skip = {"omnivoice_lm.onnx","audio_encoder.onnx","audio_decoder.onnx",
+                  "tokenizer.json","tokenizer_config.json","chat_template.jinja",
+                  "manifest.json",".gitattributes"}
+          external = sorted([f for f in files if f not in skip])
+          manifest = {"lm_external_data": external}
+
+          with open("/tmp/manifest.json", "w") as f:
+              json.dump(manifest, f)
+
+          api.upload_file(
+              path_or_fileobj="/tmp/manifest.json",
+              path_in_repo="manifest.json",
+              repo_id=repo_id,
+              repo_type="model",
+              commit_message="Add manifest.json with external data file list",
+          )
+          print(f"Uploaded manifest with {len(external)} external files")
+          EOF
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OmniVoice — In-Browser TTS</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,sans-serif;background:#0f0f13;color:#e0e0e8;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:2rem 1rem}
+  h1{font-size:1.8rem;margin-bottom:.25rem;background:linear-gradient(135deg,#7c6af5,#4fc3f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+  .subtitle{color:#888;font-size:.9rem;margin-bottom:2rem}
+  .card{background:#1a1a24;border:1px solid #2a2a3a;border-radius:12px;padding:1.5rem;width:100%;max-width:680px;margin-bottom:1rem}
+  .badge{display:inline-block;font-size:.75rem;padding:2px 8px;border-radius:99px;margin-bottom:1rem}
+  .badge.webgpu{background:#1a3a1a;color:#4caf50;border:1px solid #4caf50}
+  .badge.wasm{background:#3a2a1a;color:#ff9800;border:1px solid #ff9800}
+  label{display:block;font-size:.85rem;color:#aaa;margin-bottom:.4rem}
+  textarea,select,input[type=file]{width:100%;background:#111118;border:1px solid #333;border-radius:8px;color:#e0e0e8;padding:.75rem;font-size:.95rem;outline:none;resize:vertical}
+  textarea{min-height:90px}
+  textarea:focus,select:focus{border-color:#7c6af5}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1rem}
+  button{background:linear-gradient(135deg,#7c6af5,#4fc3f7);border:none;border-radius:8px;color:#fff;cursor:pointer;font-size:1rem;font-weight:600;padding:.75rem 1.5rem;width:100%;margin-top:1rem;transition:opacity .2s}
+  button:disabled{opacity:.4;cursor:not-allowed}
+  .progress-wrap{margin-top:1rem;display:none}
+  .progress-label{font-size:.8rem;color:#888;margin-bottom:.4rem}
+  progress{width:100%;height:6px;border-radius:3px;appearance:none}
+  progress::-webkit-progress-bar{background:#222;border-radius:3px}
+  progress::-webkit-progress-value{background:linear-gradient(90deg,#7c6af5,#4fc3f7);border-radius:3px}
+  .audio-wrap{margin-top:1rem;display:none;gap:.75rem;flex-direction:column}
+  audio{width:100%;border-radius:8px}
+  .dl-btn{background:#1a2a3a;border:1px solid #4fc3f7;color:#4fc3f7;margin-top:0}
+  .log{font-size:.78rem;color:#666;margin-top:.5rem;min-height:1.2em}
+  .section-title{font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:#666;margin-bottom:.75rem}
+</style>
+</head>
+<body>
+<h1>OmniVoice</h1>
+<p class="subtitle">GPU-accelerated in-browser TTS · Powered by WebGPU + ONNX Runtime</p>
+
+<div class="card" id="setup-card">
+  <div class="section-title">Model Setup</div>
+  <label>Model directory URL</label>
+  <input type="text" id="model-url" value="https://huggingface.co/lanmower/OmniVoice-ONNX/resolve/main" style="width:100%;background:#111118;border:1px solid #333;border-radius:8px;color:#e0e0e8;padding:.75rem;font-size:.95rem;outline:none">
+  <div style="margin-top:.75rem">
+    <label>HuggingFace token (optional, removes rate limiting)</label>
+    <input type="password" id="hf-token" style="width:100%;background:#111118;border:1px solid #333;border-radius:8px;color:#e0e0e8;padding:.75rem;font-size:.95rem;outline:none" placeholder="hf_…">
+  </div>
+  <button id="load-btn">Load Models</button>
+  <div class="log" id="load-log">Not loaded</div>
+</div>
+
+<div class="card">
+  <div id="gpu-badge" class="badge wasm">Detecting backend…</div>
+  <div class="section-title">Generate Speech</div>
+  <label>Text to synthesize</label>
+  <textarea id="text-input" placeholder="Enter text here…">Hello, this is OmniVoice running entirely in your browser with WebGPU acceleration.</textarea>
+
+  <div class="row">
+    <div>
+      <label>Language (optional)</label>
+      <select id="lang-select">
+        <option value="">Auto-detect</option>
+        <option value="en">English</option>
+        <option value="zh">Chinese</option>
+        <option value="ja">Japanese</option>
+        <option value="de">German</option>
+        <option value="fr">French</option>
+        <option value="es">Spanish</option>
+        <option value="ko">Korean</option>
+        <option value="ar">Arabic</option>
+        <option value="ru">Russian</option>
+        <option value="pt">Portuguese</option>
+      </select>
+    </div>
+    <div>
+      <label>Voice instruction (optional)</label>
+      <input type="text" id="instruct-input" placeholder="e.g. female, young adult" style="width:100%;background:#111118;border:1px solid #333;border-radius:8px;color:#e0e0e8;padding:.75rem;font-size:.95rem;outline:none">
+    </div>
+  </div>
+
+  <div style="margin-top:1rem">
+    <label>Reference audio for voice cloning (optional)</label>
+    <input type="file" id="ref-audio" accept="audio/*">
+  </div>
+  <div style="margin-top:.5rem">
+    <label>Reference text transcript (optional, improves cloning quality)</label>
+    <input type="text" id="ref-text" placeholder="Transcript of the reference audio" style="width:100%;background:#111118;border:1px solid #333;border-radius:8px;color:#e0e0e8;padding:.75rem;font-size:.95rem;outline:none">
+  </div>
+
+  <button id="gen-btn" disabled>Generate</button>
+
+  <div class="progress-wrap" id="progress-wrap">
+    <div class="progress-label" id="progress-label">Step 0 / 32</div>
+    <progress id="progress-bar" value="0" max="32"></progress>
+  </div>
+
+  <div class="audio-wrap" id="audio-wrap">
+    <audio id="audio-out" controls></audio>
+    <button class="dl-btn" id="dl-btn">Download WAV</button>
+  </div>
+  <div class="log" id="gen-log"></div>
+</div>
+
+<script type="module">
+import { OmniVoiceEngine } from './js/omnivoice_engine.js';
+import { decodeAudioFile, encodeWAV, downloadWAV } from './js/audio.js';
+
+const engine = new OmniVoiceEngine();
+let lastSamples = null;
+const SAMPLE_RATE = 24000;
+
+const $ = id => document.getElementById(id);
+
+$('load-btn').addEventListener('click', async () => {
+  $('load-btn').disabled = true;
+  $('load-log').textContent = 'Loading…';
+  try {
+    const token = $('hf-token').value.trim() || null;
+    await engine.load($('model-url').value.trim(), msg => { $('load-log').textContent = msg; }, token);
+    $('gpu-badge').textContent = `Backend: ${engine.device.toUpperCase()}`;
+    $('gpu-badge').className = `badge ${engine.device === 'webgpu' ? 'webgpu' : 'wasm'}`;
+    $('gen-btn').disabled = false;
+    $('load-log').textContent = `✓ Loaded (${engine.device})`;
+  } catch (e) {
+    $('load-log').textContent = `Error: ${String(e)}`;
+    $('load-btn').disabled = false;
+  }
+});
+
+$('gen-btn').addEventListener('click', async () => {
+  const text = $('text-input').value.trim();
+  if (!text) return;
+  $('gen-btn').disabled = true;
+  $('progress-wrap').style.display = 'block';
+  $('audio-wrap').style.display = 'none';
+  $('gen-log').textContent = '';
+
+  let refAudio = null;
+  const refFile = $('ref-audio').files[0];
+  if (refFile) {
+    $('gen-log').textContent = 'Encoding reference audio…';
+    refAudio = await decodeAudioFile(refFile);
+  }
+
+  const numStep = 32;
+  $('progress-bar').max = numStep;
+  const t0 = performance.now();
+  try {
+    lastSamples = await engine.generate(text, {
+      lang: $('lang-select').value || null,
+      refAudio,
+      refText: $('ref-text').value.trim() || null,
+      instruct: $('instruct-input').value.trim() || null,
+      numStep,
+      onStep(step, total) {
+        $('progress-bar').value = step;
+        $('progress-label').textContent = `Step ${step} / ${total}`;
+      },
+    });
+    const elapsed = ((performance.now() - t0) / 1000).toFixed(1);
+    const durSec = (lastSamples.length / SAMPLE_RATE).toFixed(1);
+    $('gen-log').textContent = `Generated ${durSec}s audio in ${elapsed}s`;
+    const wav = encodeWAV(lastSamples, SAMPLE_RATE);
+    const blob = new Blob([wav], { type: 'audio/wav' });
+    $('audio-out').src = URL.createObjectURL(blob);
+    $('audio-wrap').style.display = 'flex';
+  } catch (e) {
+    $('gen-log').textContent = `Error: ${e.message}`;
+    console.error(e);
+  }
+  $('gen-btn').disabled = false;
+});
+
+$('dl-btn').addEventListener('click', () => {
+  if (lastSamples) downloadWAV(lastSamples, SAMPLE_RATE);
+});
+</script>
+</body>
+</html>

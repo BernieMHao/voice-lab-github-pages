@@ -1,0 +1,28 @@
+{
+  "isolation": {
+    "isolated": true,
+    "shared": "function",
+    "scope": "http://127.0.0.1:5195/voice-lab/sw.js"
+  },
+  "defaultModel": "2m",
+  "downloadedModels": [
+    "2m"
+  ],
+  "networkWeightSources": [
+    "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/model.safetensors",
+    "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/tokenizer.json",
+    "https://huggingface.co/api/resolve-cache/models/kyutai/pocket-tts-without-voice-cloning/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages%2Fenglish_2m_2026-10%2Ftokenizer.json",
+    "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/alba.safetensors",
+    "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/marius.safetensors",
+    "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/jean.safetensors",
+    "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/anna.safetensors",
+    "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/cosette.safetensors",
+    "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/fantine.safetensors",
+    "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/vera.safetensors",
+    "https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/a7056f505a4a8ca72d8b5fb1440071d6f1a35739/languages/english_2m_2026-10/embeddings/javert.safetensors"
+  ],
+  "offlineGeneration": true,
+  "offlineWavBytes": 119084,
+  "deleteAndRedownload": true,
+  "gpuDisabled": true
+}

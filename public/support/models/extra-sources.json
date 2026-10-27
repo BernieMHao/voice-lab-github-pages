@@ -1,0 +1,30 @@
+{
+  "kokoro": [
+    "onnx-community/Kokoro-82M-v1.0-ONNX",
+    "1939ad2a8e416c0acfeecc08a694d14ef25f2231"
+  ],
+  "kitten-nano": [
+    "KittenML/kitten-tts-nano-0.8-int8",
+    "84781d74e29ee25217551556398b42f80593a813"
+  ],
+  "kitten-micro": [
+    "KittenML/kitten-tts-micro-0.8",
+    "1ccf72b2c2048fd17efac7de2fab32d10e225084"
+  ],
+  "kitten-mini": [
+    "KittenML/kitten-tts-mini-0.8",
+    "c02725660cea441db4c383af69f1f26f5cd00947"
+  ],
+  "piper": [
+    "rhasspy/piper-voices",
+    "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd"
+  ],
+  "supertonic": [
+    "supertone-oss-archive/supertonic-3",
+    "aafc6e32416a594460b32413efc49d7fe4ce6d46"
+  ],
+  "phonon": [
+    "gradium/phonon-31m-en",
+    "92741c5b07d085ff840e26fea8ce43110b87852f"
+  ]
+}

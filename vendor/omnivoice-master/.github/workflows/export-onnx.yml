@@ -1,0 +1,87 @@
+name: Export ONNX Models to HuggingFace
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install transformers onnx onnxruntime onnxruntime-tools optimum[onnxruntime] huggingface_hub
+          pip install -e .
+
+      - name: Export ONNX models
+        run: |
+          python -m omnivoice.scripts.export_onnx \
+            --model_path k2-fsa/OmniVoice \
+            --output_dir ./onnx_out \
+            --device cpu
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+
+      - name: Optimize ONNX models with graph optimization
+        run: |
+          pip install onnx-simplifier -q
+          python - <<'EOF'
+          import onnxsim
+          import onnx
+          import os
+          models = ["omnivoice_lm.onnx", "audio_encoder.onnx", "audio_decoder.onnx"]
+          for model_name in models:
+            path = f"./onnx_out/{model_name}"
+            if os.path.exists(path):
+              print(f"Optimizing {model_name}...")
+              model = onnx.load(path, load_external_data=True)
+              opt_model, _ = onnxsim.simplify(model)
+              data_file = model_name + ".data"
+              data_path = os.path.join("./onnx_out", data_file)
+              if os.path.exists(data_path):
+                os.remove(data_path)
+              onnx.save_model(
+                opt_model, path,
+                save_as_external_data=True,
+                all_tensors_to_one_file=True,
+                location=data_file,
+                convert_attribute=False,
+              )
+              print(f"  Optimized: {model_name}")
+          EOF
+
+      - name: Verify manifest for external data
+        run: |
+          python - <<'EOF'
+          import json
+          with open("./onnx_out/manifest.json") as f:
+              manifest = json.load(f)
+          print("External data files:", manifest.get("lm_external_data", []))
+          EOF
+
+      - name: Upload to HuggingFace Hub
+        run: |
+          python - <<'EOF'
+          from huggingface_hub import HfApi
+          import os
+          api = HfApi(token=os.environ["HF_TOKEN"])
+          repo_id = "lanmower/OmniVoice-ONNX"
+          api.create_repo(repo_id=repo_id, repo_type="model", exist_ok=True)
+          api.upload_folder(
+              folder_path="./onnx_out",
+              repo_id=repo_id,
+              repo_type="model",
+          )
+          print(f"Uploaded to https://huggingface.co/{repo_id}")
+          EOF
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}

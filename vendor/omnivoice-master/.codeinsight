@@ -1,0 +1,60 @@
+## 🎯 OmniVoice 🌍  <p align="center">   <img width="200" height="200" alt="OmniVoice" src="https://zhu-han.github.io/omnivoice/pics/omnivoice.jpg" /> </p>  <p align="center">   <a href="https://huggingface.co/k2-fsa/OmniVoice"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Mod
+
+# 51f 13.7kL 0fn 0cls cx0
+*Legend: f=files L=lines fn=functions cls=classes cx=avg-complexity | file:line:name(NL)=location Np=params | ↑N=imports-from ↓N=imported-by (N)=occurrences (+N)=more | 🔄circular 🏝️isolated 🔥complex 📋duplicated 📁large*
+
+**Langs:** Py:98% JSON:1%
+
+## 🛠️ Tech Stack
+
+**Top IDs:** self(828), torch(344), logging(309), args(292), str(250), parser(216)
+
+## ⚡ Code Patterns
+
+**Errors:** try/catch(64)
+
+## 📊 Code Organization
+
+**Large files:** models/omnivoice.py:1527L, scripts/denoise_audio.py:1048L, scripts/extract_audio_tokens_add_noise.py:825L, utils/lang_map.py:698L, scripts/extract_audio_tokens.py:625L, wer/minimax.py:596L (+18)
+
+## 🚨 Issues
+
+- 📁 Large files: models/omnivoice.py:1527L, cli/demo.py:533L, data/dataset.py:551L (+7)
+- 🔐 eval() in denoise_audio.py:418, denoise_audio.py:419, ecapa_tdnn_wavlm.py:114, omnivoice.py:540, sim.py:138, trainer.py:214 (+1)
+- 🔐 hardcoded secrets in extract_audio_tokens.py:118, extract_audio_tokens.py:119, extract_audio_tokens.py:540, extract_audio_tokens_add_noise.py:129, extract_audio_tokens_add_noise.py:130, extract_audio_tokens_add_noise.py:735 (+6)
+
+## 🧹 Dead Code & Tests
+
+**Orphaned:** builder.py, __init__.py, common.py, utils.py, voice_design.py, ecapa_tdnn_wavlm.py (+45)
+**Tests:** 0/51 (0%)
+
+## 📦 Modules
+
+- omnivoice: 45f, 0cx, 0↑0↓
+- examples: 6f, 0cx, 0↑0↓
+
+## 📄 File Index
+
+**examples/config/data_config_emilia.json** 36L
+**examples/config/data_config_finetune.json** 12L
+**examples/config/ds_config_zero2.json** 19L
+**examples/config/train_config_emilia.json** 39L
+**examples/config/train_config_finetune.json** 39L
+**examples/config/train_config_multilingual.json** 39L
+**omnivoice/__init__.py** 28L
+**omnivoice/cli/__init__.py** 0L
+**omnivoice/cli/demo.py** 533L
+**omnivoice/cli/infer.py** 157L
+**omnivoice/cli/infer_batch.py** 523L
+**omnivoice/cli/train.py** 74L
+**omnivoice/data/__init__.py** 0L
+**omnivoice/data/batching.py** 166L
+**omnivoice/data/collator.py** 92L
+**omnivoice/data/dataset.py** 551L
+**omnivoice/data/processor.py** 258L
+**omnivoice/eval/__init__.py** 4L
+**omnivoice/eval/models/ecapa_tdnn_wavlm.py** 374L
+**omnivoice/eval/models/utmos.py** 370L
+*+31 more files*
+
+Conv[Py]: 4-space, double quotes, snake_case files

@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "family": "omnivoice",
+  "sample_rate": 24000,
+  "audio_codebooks": 8,
+  "audio_mask_id": 1024,
+  "sources": {
+    "split_and_codec": {
+      "repository": "onnx-community/OmniVoice-Onnx",
+      "revision": "a7be7c65cc118137683f49eff0f80fdf9d5b5dbf"
+    },
+    "merged": {
+      "repository": "gluschenko/omnivoice-onnx",
+      "revision": "4d4bb31790c2de902de0d19645fd13cf2d71a88b"
+    }
+  },
+  "profiles": {
+    "cpu-merged-int4": {
+      "topology": "merged",
+      "precision": "int4-weight-only",
+      "codec": "codec-fp32",
+      "quantization": {
+        "tool": "onnxruntime",
+        "version": "1.24.4",
+        "operator": "com.microsoft.MatMulNBits",
+        "bits": 4,
+        "block_size": 128,
+        "symmetric": true,
+        "activations": "fp32"
+      },
+      "roles": {
+        "merged-backbone": "onnx/omnivoice_int4.onnx"
+      }
+    },
+    "portable-merged-fp32": {
+      "topology": "merged",
+      "precision": "fp32",
+      "codec": "codec-fp32",
+      "roles": {
+        "merged-backbone": "onnx/omnivoice_fp32.onnx"
+      }
+    },
+    "portable-merged-fp16": {
+      "topology": "merged",
+      "precision": "fp16-weight-storage",
+      "codec": "codec-fp32",
+      "conversion": {
+        "tool": "onnx",
+        "version": "1.16.1",
+        "weight_tensors": 199,
+        "activations": "fp32",
+        "computation": "fp32",
+        "method": "FP16 matrix initializers followed by Cast to FP32"
+      },
+      "roles": {
+        "merged-backbone": "onnx/omnivoice_fp16.onnx"
+      }
+    },
+    "cpu-merged-int8": {
+      "topology": "merged",
+      "precision": "int8-weight-only",
+      "codec": "codec-fp32",
+      "quantization": {
+        "tool": "onnxruntime",
+        "version": "1.24.4",
+        "operator": "com.microsoft.MatMulNBits",
+        "bits": 8,
+        "block_size": 128,
+        "symmetric": true,
+        "activations": "fp32",
+        "quantized_matmuls": 197
+      },
+      "roles": {
+        "merged-backbone": "onnx/omnivoice_int8.onnx"
+      }
+    }
+  },
+  "codecs": {
+    "codec-fp32": {
+      "precision": "fp32",
+      "root": "onnx"
+    }
+  },
+  "sha256": {
+    "config.json": "a8957a1c6e980b1f13347af7f33b339be6566f35dec66365dedaedabf51f61e9",
+    "tokenizer.json": "408f669b7e2b045fdf54201d815bd364e6667dbd845115da81239c40bc6dcfd1",
+    "tokenizer_config.json": "49f78845596a82bf15c83673794bdf9f76f812b11f60ab6a2239d9be65b00676",
+    "onnx/acoustic_encoder.onnx": "431a5e58528f33c1f001baa64f979572667ff69f26bc727701e3529932065401",
+    "onnx/higgs_decoder.onnx": "b28b3317a6cbf0d0f4a71b476ecb5c767612a31702da6561154783c94b6fa806",
+    "onnx/quantizer_encoder.onnx": "e4f0b707b06c24f7343d0d2d9bd977c1a4560d64b84bd19f30cdde54da1731a9",
+    "onnx/semantic_encoder.onnx": "db5751893fb44487658e8de1a88096b5421c590ac203c8d124b6972a990c79d3",
+    "onnx/omnivoice_int4.onnx": "e2e47ad91c2057da261cd5e23528d90ab8b4bd554b66cfa1d061900b676733fa",
+    "onnx/omnivoice_int4.onnx.data": "ab68fe141840a36016338a144576fd25fffc2b260e02aad7213e320e26ec3f29",
+    "onnx/omnivoice_fp32.onnx": "d9237a1d609c2512e4a244b6bc33ec9bfe6174e5d32be250252a3f6e870434c6",
+    "onnx/omnivoice_fp32.onnx_data": "8511894bd497943949f5c01271332eca4e6ae4cd0420d64ebf47e6060bf2f1ce",
+    "onnx/omnivoice_fp16.onnx": "63f81069f9c83e2b145f3b3444f3e87ff38eaa059521cc50dda2374e959aa8bc",
+    "onnx/omnivoice_fp16.onnx.data": "84a41ee3fce29ac042d8d07e6fdfffbc53eadb9822305b7a45418fa2e53cd823",
+    "onnx/omnivoice_int8.onnx": "44bc45e213337a2a6879210488921f4561c2311d55c4ba6ee59fda8b5bdd4baf",
+    "onnx/omnivoice_int8.onnx.data": "951a69e33373a5ac1391f3fbca569a64ebd5a7e488df3538efc44ec8452b5204"
+  }
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="在瀏覽器內，以純 CPU 比較 Pocket TTS 與 OmniVoice。" />
+  <title>Voice Lab · 在你的裝置生成語音</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="./" aria-label="Voice Lab 首頁"><span class="brandmark">v<span>·</span></span>voice lab<span class="lab-tag">ON DEVICE</span></a>
+    <button id="new-session" class="new-session"><span>＋</span> 新的語音實驗 <kbd>⌘ K</kbd></button>
+    <div class="side-label">工作空間</div>
+    <div class="nav-active"><span>◉</span> 語音生成 <span class="nav-arrow">↗</span></div>
+    <div class="side-label history-label">這次的生成紀錄</div>
+    <div id="history" class="history"><p class="empty-history">生成的語音會留在這裡。</p></div>
+    <div class="side-bottom"><span class="online-dot"></span><div>推論留在這台裝置<small>Browser · WebAssembly · CPU</small></div><span class="shield">◇</span></div>
+  </aside>
+  <main>
+    <header class="topbar">
+      <div class="model-switch"><label class="sr-only" for="model">選擇模型</label><select id="model"></select><span class="version-tag" id="model-size">18.2M</span></div>
+      <div class="cpu-badge"><span class="online-dot"></span>CPU ONLY <span class="badge-divider"></span><span id="thread-badge">2 threads</span></div>
+    </header>
+    <div class="workspace">
+      <div class="intro"><span class="eyebrow">YOUR BROWSER, YOUR VOICE.</span><h1>讓文字，<span>有了聲音。</span></h1><p>選一個模型，寫下一段話。聲音就在這個瀏覽器裡生成。</p></div>
+      <section class="downloads" aria-label="模型下載與儲存空間">
+        <div class="downloads-heading"><div><span class="eyebrow">YOUR DEVICE, YOUR MODELS</span><h2>只下載你需要的聲音模型</h2></div><span id="download-state" class="download-state">正在準備…</span></div>
+        <p id="download-info">首次自動下載 Pocket TTS 2M。模型保存在這台裝置的瀏覽器，文字與音訊不會送到伺服器。</p>
+        <div class="download-actions"><button id="download-model" class="secondary">下載選取模型</button><button id="delete-model" class="text-action">刪除此模型</button><button id="persist-storage" class="text-action">申請保留離線資料</button></div>
+        <p id="storage-info" class="storage-info">正在讀取瀏覽器可用空間…</p>
+        <details><summary>查看全部 15 個模型與下載大小</summary><div id="download-list" class="download-list"></div></details>
+      </section>
+      <section class="composer" aria-label="語音生成工作區">
+        <div class="composer-heading"><span class="section-dot"></span><strong>輸入文字</strong><span id="language-hint">English</span></div>
+        <label for="text" class="sr-only">要轉成語音的文字</label>
+        <textarea id="text" maxlength="2000" spellcheck="false" placeholder="Write something worth listening to…">Hello! Welcome to Voice Lab. This voice is generated entirely in your browser, using only your CPU.</textarea>
+        <div class="composer-footer"><div class="samples"><button id="sample">↗ 試試範例</button><span id="char-count">0 / 2,000</span></div><span class="shortcut">⌘ ↵ 生成</span></div>
+        <div class="settings">
+          <div class="setting"><label for="voice">聲音</label><select id="voice"></select></div>
+          <div class="setting" id="temp-setting"><label for="temperature">Temperature <output id="temperature-value">0.3</output></label><input id="temperature" type="range" min="0" max="1" step="0.05" value="0.3" /></div>
+          <div class="setting" id="seed-setting"><label for="seed">隨機種子</label><input id="seed" type="number" min="0" max="4294967295" value="42" /></div>
+          <div class="setting hidden" id="steps-setting"><label for="steps">生成步數</label><select id="steps"><option>8</option><option>16</option><option selected>32</option></select></div>
+          <div class="setting hidden" id="speed-setting"><label for="speed">語速倍率</label><input id="speed" type="number" min="0.5" max="2" step="0.05" value="1" /></div>
+        </div>
+        <div id="omni-settings" class="omni-settings hidden"><label for="language">語言</label><select id="language"><option value="en">English</option><option value="zh">中文</option><option value="ja">日本語</option><option value="ko">한국어</option><option value="de">Deutsch</option><option value="fr">Français</option><option value="es">Español</option></select><label for="instruct">聲音屬性（選填，以逗號分隔）</label><input id="instruct" placeholder="female, young adult, moderate pitch" maxlength="200" /></div>
+        <div class="action-bar"><div class="model-caption"><strong id="caption-name">Pocket TTS 2M</strong><span id="caption-detail">English · 24 kHz · WASM</span></div><button id="load" class="secondary">載入模型</button><button id="generate" class="primary">生成語音 <span>↗</span></button><button id="cancel" class="secondary hidden">停止</button></div>
+      </section>
+      <div class="status-row" role="status" aria-live="polite"><span id="status-dot" class="status-dot"></span><span id="status">尚未載入模型，第一次使用會下載權重。</span></div>
+      <progress id="progress" class="hidden" max="100"></progress>
+      <section id="result" class="result hidden" aria-label="生成結果"><div class="result-heading"><div><span class="eyebrow">READY TO LISTEN</span><h2>你的聲音，準備好了。</h2><p id="result-meta" class="result-meta"></p></div><a id="download" class="download" download="voice-lab.wav">↓ 下載 WAV</a></div><canvas id="waveform" height="68" aria-label="音訊波形"></canvas><audio id="audio" controls preload="metadata"></audio><div class="metrics"><div><span>生成時間</span><strong id="metric-time">—</strong></div><div><span>音訊長度</span><strong id="metric-duration">—</strong></div><div><span>即時率 RTF</span><strong id="metric-rtf">—</strong></div><div><span>首段延遲</span><strong id="metric-first">—</strong></div></div></section>
+      <div id="model-note" class="model-note"></div>
+      <footer class="workspace-footer"><span>◇ 文字與音訊不會上傳 · <a href="./THIRD_PARTY.md" target="_blank" rel="noopener">模型來源與授權</a></span><span>最多 2 個推論執行緒 · GPU 關閉</span></footer>
+    </div>
+  </main>
+  <script type="module" src="/src/bootstrap.js"></script>
+</body>
+</html>
